@@ -1,3 +1,19 @@
+/* =======================================================================
+   GOAL WIDGET — goalwidget.js
+   Host this file on GitHub and serve via jsDelivr CDN.
+   StreamElements Goal Widget | OBS-Optimized External Build
+
+   HOW IT WORKS:
+   - StreamElements resolves {tokens} in HTML/CSS panels only.
+   - This external file reads from window.WCONF (set by the inline
+     bridge script in the SE HTML panel) for any value that was
+     previously a {token} inside the JS panel.
+   - All other runtime data (fieldData, session) comes from the
+     onWidgetLoad event as normal.
+   ======================================================================= */
+
+// ── Constants ────────────────────────────────────────────────────────────────
+
 const CONFIG = {
   currency: "$",
   selectors: {
@@ -79,10 +95,10 @@ function applyFonts(fieldData) {
 
 function buildParticleMarkup(count = 38) {
   const shapes = [
-    { key: "starLarge",    weight: 3, sizeMin: 6,  sizeMax: 12, cls: "is-star"  },
-    { key: "starThin",     weight: 3, sizeMin: 5,  sizeMax: 10, cls: "is-star"  },
-    { key: "sparkDiamond", weight: 2, sizeMin: 4,  sizeMax:  7, cls: "is-spark" },
-    { key: "dot",          weight: 9, sizeMin: 2,  sizeMax:  4, cls: "is-dot"   }
+    { key: "starLarge",    weight: 3, sizeMin: 2,  sizeMax: 3, cls: "is-star"  },
+    { key: "starThin",     weight: 3, sizeMin: 3,  sizeMax: 4, cls: "is-star"  },
+    { key: "sparkDiamond", weight: 2, sizeMin: 1,  sizeMax:  4, cls: "is-spark" },
+    { key: "dot",          weight: 9, sizeMin: 2,  sizeMax:  1, cls: "is-dot"   }
   ];
 
   const weighted = [];
