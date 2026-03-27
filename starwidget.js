@@ -11,22 +11,14 @@ const CONFIG = {
 };
 
 const PARTICLE_SHAPES = {
-  // ── Circle bubbles — 4 size variations ──────────────────────────────────
-  // All centered at 50,50 in a 100×100 viewBox.
-  // The 0.001 offset on the arc endpoint is the standard SVG trick to
-  // force a full 360° sweep without the path collapsing to nothing.
-
   starLarge:
-    "M 50,5 a 45,45 0 1,0 0.001,0 Z",      // XL bubble   r=10
-
+    "M52.77,86.45l-9.36-9.46c-1.72-1.74-4.19-2.52-6.6-2.09l-13.09,2.35C17.66,78.34,12.98,72,15.8,66.52l6.1-11.82c1.12-2.17,1.1-4.76-0.05-6.92l-6.28-11.73c-2.91-5.43,1.67-11.84,7.76-10.85l13.13,2.15c2.42,0.4,4.87-0.42,6.57-2.19l9.21-9.6c4.27-4.45,11.78-2.07,12.71,4.02l2.01,13.15c0.37,2.42,1.91,4.5,4.11,5.57l11.97,5.8c5.55,2.69,5.61,10.57,0.1,13.34l-11.88,5.98c-2.19,1.1-3.69,3.21-4.03,5.63l-1.81,13.18C64.59,88.33,57.11,90.83,52.77,86.45z",
   starThin:
-    "M 50,15 a 35,35 0 1,0 0.001,0 Z",     // Large bubble r=8
-
+    "M52.77,86.45l-9.36-9.46c-1.72-1.74-4.19-2.52-6.6-2.09l-13.09,2.35C17.66,78.34,12.98,72,15.8,66.52l6.1-11.82c1.12-2.17,1.1-4.76-0.05-6.92l-6.28-11.73c-2.91-5.43,1.67-11.84,7.76-10.85l13.13,2.15c2.42,0.4,4.87-0.42,6.57-2.19l9.21-9.6c4.27-4.45,11.78-2.07,12.71,4.02l2.01,13.15c0.37,2.42,1.91,4.5,4.11,5.57l11.97,5.8c5.55,2.69,5.61,10.57,0.1,13.34l-11.88,5.98c-2.19,1.1-3.69,3.21-4.03,5.63l-1.81,13.18C64.59,88.33,57.11,90.83,52.77,86.45z",
   sparkDiamond:
-    "M 50,25 a 25,25 0 1,0 0.001,0 Z",     // Medium bubble r=4
-
+    "M50 8 C73 8 92 27 92 50 C92 73 73 92 50 92 C27 92 8 73 8 50 C8 27 27 8 50 8 Z",
   dot:
-    "M 50,35 a 15,15 0 1,0 0.001,0 Z"      // Small bubble  r=2
+    "M50 8 C73 8 92 27 92 50 C92 73 73 92 50 92 C27 92 8 73 8 50 C8 27 27 8 50 8 Z"
 };
 
 const HEART_PATH =
@@ -79,10 +71,10 @@ function applyFonts(fieldData) {
 
 function buildParticleMarkup(count = 38) {
   const shapes = [
-    { key: "starLarge",    weight: 3, sizeMin: 2,  sizeMax: 3, cls: "is-star"  },
-    { key: "starThin",     weight: 3, sizeMin: 3,  sizeMax: 4, cls: "is-star"  },
-    { key: "sparkDiamond", weight: 2, sizeMin: 1,  sizeMax:  4, cls: "is-spark" },
-    { key: "dot",          weight: 9, sizeMin: 2,  sizeMax:  1, cls: "is-dot"   }
+    { key: "starLarge",    weight: 3, sizeMin: 5,  sizeMax: 10, cls: "is-star"  },
+    { key: "starThin",     weight: 3, sizeMin: 3,  sizeMax: 6, cls: "is-star"  },
+    { key: "sparkDiamond", weight: 2, sizeMin: 2,  sizeMax:  4, cls: "is-spark" },
+    { key: "dot",          weight: 9, sizeMin: 1,  sizeMax:  2, cls: "is-dot"   }
   ];
 
   const weighted = [];
@@ -499,22 +491,10 @@ class GoalWidget {
 
     if (this._warpFrame) { cancelAnimationFrame(this._warpFrame); this._warpFrame = null; }
 
-    /* ── Delta-time animation ─────────────────────────────────────────────
-       Speed values were tuned at 60fps. By multiplying by (delta × 60) we
-       normalise to a 60fps-equivalent increment every frame regardless of
-       the actual frame rate.
-
-         60fps : delta ≈ 0.01667s  →  dt ≈ 1.00  →  speed × 1   ✅
-         30fps : delta ≈ 0.03333s  →  dt ≈ 2.00  →  speed × 2   ✅
-         Any fps: visual wave speed is always identical.
-
-       delta is capped at 100 ms (0.1 s) so a stall / tab-suspend never
-       causes a massive position jump when the browser resumes.
-       ──────────────────────────────────────────────────────────────────── */
     let lastTime = performance.now();
 
     const animate = (now) => {
-      const delta = Math.min((now - lastTime) / 1000, 0.1); // seconds, capped at 100 ms
+      const delta = Math.min((now - lastTime) / 1000, 0.1);
       lastTime    = now;
 
       // Normalise to 60fps-equivalent so OBS (30fps) matches SE editor (60fps)
