@@ -1,1 +1,796 @@
-const _0x47ce56=_0x1cc4;(function(_0xfe422d,_0x428e12){const _0x53c404=_0x1cc4,_0x5809d7=_0xfe422d();while(!![]){try{const _0x31bb50=-parseInt(_0x53c404(0x248))/0x1+parseInt(_0x53c404(0x20a))/0x2*(-parseInt(_0x53c404(0x1b9))/0x3)+parseInt(_0x53c404(0x1a3))/0x4*(-parseInt(_0x53c404(0x256))/0x5)+parseInt(_0x53c404(0x17d))/0x6*(parseInt(_0x53c404(0x22d))/0x7)+-parseInt(_0x53c404(0x199))/0x8*(-parseInt(_0x53c404(0x189))/0x9)+-parseInt(_0x53c404(0x1ae))/0xa+parseInt(_0x53c404(0x203))/0xb;if(_0x31bb50===_0x428e12)break;else _0x5809d7['push'](_0x5809d7['shift']());}catch(_0x298048){_0x5809d7['push'](_0x5809d7['shift']());}}}(_0x2d68,0xe1cb0));function _0x2d68(){const _0x4437dc=['back','max','session','getElementById',';fill-opacity:1;\x22\x20d=\x22','targetPercent','onWidgetLoad','particlesToggle','liquid-rect-wrap','wrapId','timeframe','pos-right','drop-shadow(0\x200\x207px\x20','cur','backcolor','type','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20</div>\x0a\x20\x20','state','toFixed','23082kJlNzR','startsWith','cls','filterIdle','raid','stroke','-session','layout-one','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22text1\x22\x20id=\x22count-right\x22>0\x20/\x20','https://cdn.streamelements.com/uploads/1fc8930a-ea61-45cd-b24d-9078e4059a38.png','-month','</div>','63gHMxdS','Roboto','handleEvent','#fffefe','phaseOffset',')\x20drop-shadow(0\x200\x206px\x20','applyFieldDataToLayers','#count-bottom',')\x20drop-shadow(0\x200\x209px\x20','sin','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22textbottom\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22title\x22>','starhangcol','M41.39,2.59V2.28c0-0.82,0.66-1.48,1.48-1.48c0.81,0,1.48,0.66,1.48,1.48v0.31c0,0.82-0.67,1.48-1.48,1.48\x20C42.05,4.07,41.39,3.41,41.39,2.59z\x20M52.75,49.32l-6.83-0.99l-2.9-5.89c0.74-0.06,1.33-0.7,1.33-1.47v-0.31\x20c0-0.81-0.67-1.48-1.48-1.48c-0.82,0-1.48,0.67-1.48,1.48v0.31c0,0.77,0.58,1.41,1.33,1.47l-2.91,5.89l-6.82,0.99l4.94,4.82\x20l-1.17,6.81l6.11-3.21l6.1,3.21l-1.16-6.81L52.75,49.32z\x20M42.87,61.16c0.41,0,0.74-0.33,0.74-0.74v-0.16c0-0.41-0.33-0.74-0.74-0.74\x20s-0.74,0.33-0.74,0.74v0.16C42.13,60.83,42.46,61.16,42.87,61.16z\x20M42.13,64.45c0,0.41,0.33,0.74,0.74,0.74s0.74-0.33,0.74-0.74\x20V64.3c0-0.41-0.33-0.74-0.74-0.74s-0.74,0.33-0.74,0.74V64.45z\x20M42.87,34.39c0.81,0,1.48-0.67,1.48-1.48V32.6\x20c0-0.82-0.67-1.49-1.48-1.49c-0.82,0-1.48,0.67-1.48,1.49v0.31C41.39,33.72,42.05,34.39,42.87,34.39z\x20M42.13,68.48\x20c0,0.41,0.33,0.74,0.74,0.74s0.74-0.33,0.74-0.74v-0.15c0-0.41-0.33-0.74-0.74-0.74s-0.74,0.33-0.74,0.74V68.48z\x20M42.87,20.2\x20c0.81,0,1.48-0.66,1.48-1.48v-0.31c0-0.82-0.67-1.48-1.48-1.48c-0.82,0-1.48,0.66-1.48,1.48v0.31C41.39,19.54,42.05,20.2,42.87,20.2\x20z\x20M42.87,12.14c0.81,0,1.48-0.67,1.48-1.49v-0.31c0-0.82-0.67-1.48-1.48-1.48c-0.82,0-1.48,0.66-1.48,1.48v0.31\x20C41.39,11.47,42.05,12.14,42.87,12.14z\x20M42.87,26.2c0.81,0,1.48-0.67,1.48-1.48v-0.18c0-0.82-0.67-1.39-1.48-1.39\x20c-0.82,0-1.48,0.75-1.48,1.57C41.39,25.53,42.05,26.2,42.87,26.2z\x20M42.87,70.71c-1.62,0-2.93,1.31-2.93,2.92\x20c0,1.62,1.31,2.93,2.93,2.93c1.61,0,2.92-1.31,2.92-2.93C45.79,72.02,44.48,70.71,42.87,70.71z','innerHTML','isResub','speed','2103016BfFJdE','M50\x208\x20C73\x208\x2092\x2027\x2092\x2050\x20C92\x2073\x2073\x2092\x2050\x2092\x20C27\x2092\x208\x2073\x208\x2050\x20C8\x2027\x2027\x208\x2050\x208\x20Z','head','week','\x0a\x20\x20\x20\x20\x20\x20<span\x20class=\x22particle\x20','s;--delay:','px;--duration:','follower','#heart-burst','\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starsthang_3\x20swing\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x2085.73\x2077.35\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:','112684oAZKEx','manual','is-star','detail','resubs','liquidspeed','updateLayerVisuals','setProperty','weight','textbg-off','visible','11363670fUjbwK','strokecolor','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x20L\x200\x20','one','object','#FFFFFF','clientHeight','\x0a\x20\x20\x20\x20<div\x20class=\x22container\x22\x20id=\x22container\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20<img\x20class=\x22front\x22\x20src=\x22','querySelector','querySelectorAll','3235857CwdcBp','My\x20Goal','round','selectors','widget-root','currentAmount','fill','countResubs','%;--startY:','zIndex','getNumber','c-4.75,30.71-18.16,46.69-27.2,54.22c-5.26,4.38-11.89,6.79-18.73,6.79','.title,.text1,.textright,.textbottom','visibility','add','replace','sizeMax','willChange',')\x20drop-shadow(0\x200\x205px\x20','remove','sparkDiamond','-total','drop-shadow(0\x200\x205px\x20','front','c-14.95-7.58-22.74-24.38-18.84-40.68c5.75-24.04,28.06-45.8,28.06-45.8','glow','animatedPercent','transition','\x22></path>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20</span>','total','drop-shadow(0\x200\x205px\x20rgba(255,241,190,0.45))\x20drop-shadow(0\x200\x209px\x20rgba(255,241,190,0.45))','drop-shadow(0\x200\x203px\x20','transform,\x20filter',';--rotate:','toggle','body','heartBurst','top','none','currency','setupTextPosition','\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20──\x20Hanging\x20/\x20swinging\x20stars\x20──\x20-->\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starsthang_1\x20swing\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x20119.41\x20107.74\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:','_warpFrame','fillcolor1','.textright','event','\x20/\x20','textRight','.mask','getBucketKey','\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starst_2\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x20266\x20240\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:','innerText','bottom','svg-element-back','filter','sizeMin','bulkGifted','applyLayerStyles','layout-two',';stroke-width:8;stroke-linecap:round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22','startPercentTween','M98.7,50c0,26.9-21.8,48.7-48.7,48.7S1.3,76.9,1.3,50S23.1,1.3,50,1.3S98.7,23.1,98.7,50z','-week','--particle-progress',')\x20drop-shadow(0\x200\x207px\x20','updateUI','easeOutCubic','rgba(255,241,190,0.45)','backop','overflow','hidden','initLiquidWarp','updateCompletionBurst','height','25648931PTRgXa','rel','includes','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20viewBox=\x220\x200\x20100\x20100\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22','goalTarget',';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20viewBox=\x220\x200\x20100\x20100\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22','onEventReceived','2RVYrNw','buildDOM','listener','strokeColor','textLayout','is-dot','pos-bottom','goalType','position','now','textpos',')\x20drop-shadow(0\x200\x202px\x20','#fddbad','textBottom','pathId','M251.34,119.08c5.03,13.02,1.66,27.93-8.78,37.18c-18.87,16.73-52.95,22.2-52.95,22.2','\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20--x:','startAmount','random','left','\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starst_3\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x20266\x20240\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:','month','is-spark','starcol','_percentTweenFrame','\x0a\x20\x20\x20\x20\x20\x20<span\x20class=\x22heart\x20heart-','filterActive','trim','sub_type','heartend','viewers','M57.69,26.76v-0.42c0-1.11,0.9-2.01,2.01-2.01c1.11,0,2.01,0.9,2.01,2.01v0.42c0,1.11-0.9,2.01-2.01,2.01\x20C58.59,28.77,57.69,27.87,57.69,26.76z\x20M59.7,36.92c1.11,0,2.01-0.9,2.01-2.01v-0.24c0-1.11-0.9-1.89-2.01-1.89\x20c-1.11,0-2.01,1.02-2.01,2.13S58.59,36.92,59.7,36.92z\x20M59.7,48.05c1.11,0,2.01-0.91,2.01-2.02v-0.42c0-1.11-0.9-2.01-2.01-2.01\x20c-1.11,0-2.01,0.9-2.01,2.01v0.42C57.69,47.13,58.59,48.05,59.7,48.05z\x20M58.7,94.33c0,0.56,0.45,1,1,1c0.56,0,1.01-0.44,1.01-1\x20v-0.21c0-0.56-0.45-1.01-1.01-1.01c-0.55,0-1,0.45-1,1.01V94.33z\x20M59.7,17.82c1.11,0,2.01-0.91,2.01-2.02v-0.42\x20c0-1.11-0.9-2.01-2.01-2.01c-1.11,0-2.01,0.9-2.01,2.01v0.42C57.69,16.92,58.59,17.82,59.7,17.82z\x20M59.7,6.86\x20c1.11,0,2.01-0.89,2.01-2.01V4.44c0-1.12-0.9-2.01-2.01-2.01c-1.11,0-2.01,0.89-2.01,2.01v0.41C57.69,5.98,58.59,6.86,59.7,6.86z\x20M73.12,68.31l-9.27-1.34l-3.94-7.99c1.01-0.11,1.8-0.96,1.8-2v-0.43c0-1.1-0.9-2.01-2.01-2.01c-1.11,0-2.01,0.91-2.01,2.01v0.43\x20c0,1.04,0.79,1.89,1.8,2l-3.93,7.99l-9.27,1.34l6.7,6.55l-1.58,9.24l8.29-4.36l8.29,4.36l-1.58-9.24L73.12,68.31z\x20M59.7,84.39\x20c0.56,0,1.01-0.46,1.01-1.01v-0.21c0-0.56-0.45-1.01-1.01-1.01c-0.55,0-1,0.45-1,1.01v0.21C58.7,83.93,59.15,84.39,59.7,84.39z\x20M58.7,88.86c0,0.55,0.45,1,1,1c0.56,0,1.01-0.45,1.01-1v-0.21c0-0.56-0.45-1.01-1.01-1.01c-0.55,0-1,0.45-1,1.01V88.86z\x20M59.7,97.36c-2.19,0-3.97,1.78-3.97,3.98c0,2.19,1.78,3.97,3.97,3.97s3.97-1.78,3.97-3.97C63.67,99.13,61.89,97.36,59.7,97.36z','cheer','setAttribute','floor','1876bfgzMj','min','stroke-linejoin','stylesheet','documentElement','applyLiquidRectInlineStyles','goal','computeSubscriberIncrement','length','liquid-path-back','px;--scale:',';--sway:','buildLiquidPath','M\x200\x20','toLowerCase','\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</linearGradient>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</defs>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20id=\x22liquid-path\x22\x20fill=\x22url(#front-gradient-2)\x22\x20d=\x22M0\x20251\x20L224\x20251\x20L224\x20251\x20L0\x20251\x20Z\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Stroke\x20/\x20surface\x20line\x20layer\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22liquid-stroke-wrap\x22\x20id=\x22liquid-stroke-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20id=\x22svg-element-stroke\x22\x20class=\x22liquid-stroke-svg\x22\x20viewBox=\x220\x200\x20224\x20251\x22\x20preserveAspectRatio=\x22none\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20id=\x22liquid-path-stroke\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x22none\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke=\x22','init','tip','data','containerBottom','fontName','c-39.55-0.05-55.24-49.57-55.24-49.57c-27.36,4.25-45.09,0.11-56.23-5.54','style','.textbottom','key','drop-shadow(0\x200\x204px\x20rgba(255,241,190,0.45))\x20drop-shadow(0\x200\x206px\x20rgba(255,241,190,0.45))','classList','513617mFhtXW','stroke-width','particleLayer','liquid-stroke-wrap','c-8.5-21.24-8.19-44.64-7.28-56.49c0.78-10.2,6.85-19.49,16.29-23.4','layers','appendChild','textbg-on','width',')\x20drop-shadow(0\x200\x2010px\x20','drop-shadow(0\x200\x205px\x20rgba(255,241,190,0.45))\x20drop-shadow(0\x200\x207px\x20rgba(255,241,190,0.45))','getLayerPercent','amount','strokeWidth','275jHebua','_waveOffsets','resub','initializeAmount','off','\x22\x20d=\x22M0\x20251\x20L224\x20251\x20L224\x20251\x20L0\x20251\x20Z\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Front\x20liquid\x20layer\x20(gradient\x20fill)\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22liquid-rect-wrap\x22\x20id=\x22liquid-rect-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20id=\x22svg-element\x22\x20class=\x22liquid-rect-svg\x22\x20viewBox=\x220\x200\x20224\x20251\x22\x20preserveAspectRatio=\x22none\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<defs>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<linearGradient\x20id=\x22front-gradient-2\x22\x20gradientUnits=\x22userSpaceOnUse\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20x1=\x220\x22\x20y1=\x22251\x22\x20x2=\x220\x22\x20y2=\x220\x22\x20gradientTransform=\x22rotate(0)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<stop\x20offset=\x220%\x22\x20\x20\x20stop-color=\x22','liquid-path-stroke','display','is_resub','opacity','\x20L\x20','px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--blinkScaleMin:','addEventListener','<div\x20class=\x22particle-layer\x22\x20id=\x22particle-layer\x22>','pointerEvents','dot','subscriber','s;--alpha:','transform\x20900ms\x20cubic-bezier(0.22,\x201,\x200.36,\x201),\x20filter\x20400ms\x20ease,\x20opacity\x20400ms\x20ease','increment','updateParticleProgress','svgId','fieldData','link'];_0x2d68=function(){return _0x4437dc;};return _0x2d68();}const CONFIG={'currency':'$','selectors':{'textRight':'#count-right','textBottom':_0x47ce56(0x190),'containerRight':_0x47ce56(0x1e5),'containerBottom':_0x47ce56(0x244),'particleLayer':'#particle-layer','heartBurst':_0x47ce56(0x1a1)}},PARTICLE_SHAPES={'starLarge':_0x47ce56(0x1f6),'starThin':_0x47ce56(0x1f6),'sparkDiamond':_0x47ce56(0x19a),'dot':'M50\x208\x20C73\x208\x2092\x2027\x2092\x2050\x20C92\x2073\x2073\x2092\x2050\x2092\x20C27\x2092\x208\x2073\x208\x2050\x20C8\x2027\x2027\x208\x2050\x208\x20Z'},HEART_PATH='M98.7,50c0,26.9-21.8,48.7-48.7,48.7S1.3,76.9,1.3,50S23.1,1.3,50,1.3S98.7,23.1,98.7,50z',STAR_PATHS={'s1':_0x47ce56(0x1f6),'s2':'M98.7,50c0,26.9-21.8,48.7-48.7,48.7S1.3,76.9,1.3,50S23.1,1.3,50,1.3S98.7,23.1,98.7,50z','s3':'M98.7,50c0,26.9-21.8,48.7-48.7,48.7S1.3,76.9,1.3,50S23.1,1.3,50,1.3S98.7,23.1,98.7,50z','s4':_0x47ce56(0x1f6)},HANG_PATHS={'h1':_0x47ce56(0x229),'h2':'M84.9,129.17c0-0.81,0.66-1.48,1.48-1.48s1.48,0.67,1.48,1.48v0.31c0,0.82-0.66,1.49-1.48,1.49\x20s-1.48-0.67-1.48-1.49V129.17z\x20M86.38,69.36c1.63,0,2.96-1.33,2.96-2.96v-0.63c0-1.63-1.33-2.96-2.96-2.96s-2.96,1.33-2.96,2.96\x20v0.63C83.42,68.03,84.75,69.36,86.38,69.36z\x20M86.38,122.9c0.82,0,1.48-0.67,1.48-1.48v-0.31c0-0.82-0.66-1.49-1.48-1.49\x20s-1.48,0.67-1.48,1.49v0.31C84.9,122.23,85.56,122.9,86.38,122.9z\x20M84.9,137.54c0,0.83,0.66,1.48,1.48,1.48s1.48-0.65,1.48-1.48\x20v-0.3c0-0.83-0.66-1.48-1.48-1.48s-1.48,0.65-1.48,1.48V137.54z\x20M86.38,8.72c1.63,0,2.96-1.32,2.96-2.97V5.14\x20c0-1.65-1.33-2.96-2.96-2.96s-2.96,1.31-2.96,2.96v0.61C83.42,7.4,84.75,8.72,86.38,8.72z\x20M86.38,24.85c1.63,0,2.96-1.33,2.96-2.96\x20v-0.63c0-1.63-1.33-2.96-2.96-2.96s-2.96,1.33-2.96,2.96v0.63C83.42,23.52,84.75,24.85,86.38,24.85z\x20M86.38,40.98\x20c1.63,0,2.96-1.33,2.96-2.96V37.4c0-1.63-1.33-2.96-2.96-2.96s-2.96,1.33-2.96,2.96v0.62C83.42,39.65,84.75,40.98,86.38,40.98z\x20M86.38,52.97c1.63,0,2.96-1.33,2.96-2.95v-0.36c0-1.63-1.33-2.78-2.96-2.78s-2.96,1.5-2.96,3.13\x20C83.42,51.65,84.75,52.97,86.38,52.97z\x20M86.38,142c-3.23,0-5.85,2.62-5.85,5.85c0,3.23,2.62,5.85,5.85,5.85s5.85-2.62,5.85-5.85\x20C92.23,144.62,89.61,142,86.38,142z\x20M106.14,99.23l-13.65-1.99l-5.8-11.76c1.49-0.15,2.65-1.43,2.65-2.95v-0.62\x20c0-1.64-1.33-2.97-2.96-2.97s-2.96,1.33-2.96,2.97v0.62c0,1.52,1.16,2.8,2.65,2.95l-5.8,11.76l-13.65,1.99l9.88,9.64l-2.33,13.61\x20l12.21-6.43l12.21,6.43l-2.33-13.61L106.14,99.23z','h3':_0x47ce56(0x195)},BLOB_CLIP_D=_0x47ce56(0x219)+_0x47ce56(0x1c4)+_0x47ce56(0x242)+_0x47ce56(0x1d1)+_0x47ce56(0x24c)+'c25.22-10.46,66.87,9.87,66.87,9.87c43.3-36.15,67.74-26.01,67.74-26.01'+'c32.58,10.29,23.15,76.31,23.15,76.31C235.15,88.76,246.55,106.69,251.34,119.08z';function applyFonts(_0x4157d3){const _0x438598=_0x47ce56;let _0x285393=_0x438598(0x18a);const _0x1beb61=_0x4157d3[_0x438598(0x241)];if(typeof _0x1beb61==='string')_0x285393=_0x1beb61;else typeof _0x1beb61===_0x438598(0x1b3)&&_0x1beb61&&_0x1beb61['family']&&(_0x285393=_0x1beb61['family']);const _0x2ba57d=document['createElement'](_0x438598(0x26d));_0x2ba57d[_0x438598(0x204)]=_0x438598(0x230),_0x2ba57d['href']='https://fonts.googleapis.com/css2?family='+_0x285393[_0x438598(0x1c8)](/ /g,'+')+':wght@300;400;700;900&display=swap',document[_0x438598(0x19b)][_0x438598(0x24e)](_0x2ba57d),document[_0x438598(0x1b8)](_0x438598(0x1c5))['forEach'](_0x2e6105=>{const _0x5eadcc=_0x438598;_0x2e6105[_0x5eadcc(0x243)]['fontFamily']=_0x285393;});}function buildParticleMarkup(_0x59aa7c=0x26){const _0x97140=_0x47ce56,_0x2db58a=[{'key':'starLarge','weight':0x3,'sizeMin':0x6,'sizeMax':0xc,'cls':_0x97140(0x1a5)},{'key':'starThin','weight':0x3,'sizeMin':0x5,'sizeMax':0xa,'cls':_0x97140(0x1a5)},{'key':_0x97140(0x1cd),'weight':0x2,'sizeMin':0x4,'sizeMax':0x7,'cls':_0x97140(0x220)},{'key':_0x97140(0x265),'weight':0x9,'sizeMin':0x2,'sizeMax':0x4,'cls':_0x97140(0x20f)}],_0x20794=[];_0x2db58a['forEach'](_0x5af217=>{const _0x38838f=_0x97140;for(let _0x39809a=0x0;_0x39809a<_0x5af217[_0x38838f(0x1ab)];_0x39809a++)_0x20794['push'](_0x5af217);});let _0x5a79b1=_0x97140(0x263);for(let _0x669a9a=0x0;_0x669a9a<_0x59aa7c;_0x669a9a++){const _0x2f7408=_0x20794[Math[_0x97140(0x22c)](Math[_0x97140(0x21c)]()*_0x20794[_0x97140(0x235)])],_0x5c9330=_0x2f7408[_0x97140(0x1f0)]+Math[_0x97140(0x21c)]()*(_0x2f7408[_0x97140(0x1c9)]-_0x2f7408[_0x97140(0x1f0)]),_0xb7dce4=(0x8+Math[_0x97140(0x21c)]()*0x54)[_0x97140(0x17c)](0x2),_0x342cc3=(0x50+Math[_0x97140(0x21c)]()*0x10)[_0x97140(0x17c)](0x2),_0x47f1d5=(Math['random']()*0x2e-0x17)['toFixed'](0x2),_0x24cd52=(0x41+Math[_0x97140(0x21c)]()*0x64)['toFixed'](0x2),_0x1bdee0=(0x6+Math[_0x97140(0x21c)]()*0x8)['toFixed'](0x2),_0x2d4017=(-Math[_0x97140(0x21c)]()*0xe)[_0x97140(0x17c)](0x2),_0x107f29=(0.8+Math[_0x97140(0x21c)]()*1.8)[_0x97140(0x17c)](0x2),_0x2fe07d=(0.7+Math[_0x97140(0x21c)]()*0.9)[_0x97140(0x17c)](0x2),_0x11f1de=Math[_0x97140(0x22c)](Math[_0x97140(0x21c)]()*0x168),_0x2c43a9=(0x8+Math[_0x97140(0x21c)]()*0x12)[_0x97140(0x17c)](0x2),_0x304fc3=_0x2f7408[_0x97140(0x245)]===_0x97140(0x265)?(0.35+Math[_0x97140(0x21c)]()*0.35)['toFixed'](0x2):(0.55+Math[_0x97140(0x21c)]()*0.32)[_0x97140(0x17c)](0x2),_0xf62122=_0x2f7408[_0x97140(0x245)]==='dot'?(0.45+Math[_0x97140(0x21c)]()*0.18)[_0x97140(0x17c)](0x2):(0.92+Math[_0x97140(0x21c)]()*0.05)[_0x97140(0x17c)](0x2),_0x22c5f8=_0x2f7408['key']===_0x97140(0x265)?(1.1+Math[_0x97140(0x21c)]()*0.4)[_0x97140(0x17c)](0x2):(1.02+Math['random']()*0.08)['toFixed'](0x2);_0x5a79b1+=_0x97140(0x19d)+_0x2f7408[_0x97140(0x17f)]+_0x97140(0x21a)+_0xb7dce4+_0x97140(0x1c1)+_0x342cc3+'%;--driftX:'+_0x47f1d5+'px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--travelY:'+_0x24cd52+_0x97140(0x19f)+_0x1bdee0+_0x97140(0x19e)+_0x2d4017+'s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--size:'+_0x5c9330+_0x97140(0x237)+_0x2fe07d+_0x97140(0x1da)+_0x11f1de+'deg;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--twinkle:'+_0x107f29+_0x97140(0x267)+_0x304fc3+_0x97140(0x238)+_0x2c43a9+_0x97140(0x261)+_0xf62122+';--blinkScaleMax:'+_0x22c5f8+_0x97140(0x208)+PARTICLE_SHAPES[_0x2f7408[_0x97140(0x245)]]+_0x97140(0x1d5);}return _0x5a79b1+=_0x97140(0x188),_0x5a79b1;}function buildHeartBurstMarkup(_0x31a740=0xa){const _0x583978=_0x47ce56;let _0x2ffe09='<div\x20class=\x22heart-burst\x22\x20id=\x22heart-burst\x22\x20aria-hidden=\x22true\x22>';for(let _0x2049fd=0x0;_0x2049fd<_0x31a740;_0x2049fd++){_0x2ffe09+=_0x583978(0x223)+(_0x2049fd+0x1)+_0x583978(0x206)+HEART_PATH+'\x22></path>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20</span>';}return _0x2ffe09+=_0x583978(0x188),_0x2ffe09;}function buildWidgetTemplate(_0x4acb8c){const _0x1aa432=_0x47ce56,_0x1339a1=_0x4acb8c[_0x1aa432(0x1de)]||_0x1aa432(0x186),_0x5188bb=_0x4acb8c['goalTarget']??_0x4acb8c[_0x1aa432(0x233)]??0x64,_0xcb4cfa=typeof _0x4acb8c[_0x1aa432(0x1fd)]==='number'?_0x4acb8c['backop']:0x2,_0xe812c6=Math['max'](0x0,Math[_0x1aa432(0x22e)](_0xcb4cfa/0xa,0.9)),_0x3aa6aa=String(_0x4acb8c[_0x1aa432(0x275)]||'on')[_0x1aa432(0x23b)]()!=='off',_0x46624e=_0x4acb8c[_0x1aa432(0x221)]||'#fffefe',_0x7024b=_0x4acb8c[_0x1aa432(0x194)]||_0x1aa432(0x18c),_0x24394f=_0x4acb8c[_0x1aa432(0x178)]||'rgb(254,255,254)',_0x5de896=_0x4acb8c[_0x1aa432(0x1e4)]||_0x1aa432(0x216),_0x57afff=_0x4acb8c['fillcolor2']||'#ffb716',_0x4c73d5=_0x4acb8c[_0x1aa432(0x1af)]||_0x1aa432(0x1b4),_0x259dbb=_0x4acb8c['title']||_0x1aa432(0x1ba);return _0x1aa432(0x1b6)+_0x1339a1+'\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20──\x20Static\x20decorative\x20stars\x20──\x20-->\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starst\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x20266\x20240\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:'+_0x46624e+_0x1aa432(0x272)+STAR_PATHS['s1']+_0x1aa432(0x1eb)+_0x46624e+';fill-opacity:1;\x22\x20d=\x22'+STAR_PATHS['s2']+_0x1aa432(0x21e)+_0x46624e+';fill-opacity:1;\x22\x20d=\x22'+STAR_PATHS['s3']+'\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starst_4\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x20266\x20240\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:'+_0x46624e+_0x1aa432(0x272)+STAR_PATHS['s4']+_0x1aa432(0x1e2)+_0x7024b+';fill-opacity:1;\x22\x20d=\x22'+HANG_PATHS['h1']+'\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20<svg\x20class=\x22starsthang_2\x20swing\x22\x20width=\x2260\x22\x20height=\x2260\x22\x20viewBox=\x220\x200\x20172.77\x20155.88\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20style=\x22fill:'+_0x7024b+_0x1aa432(0x272)+HANG_PATHS['h2']+_0x1aa432(0x1a2)+_0x7024b+_0x1aa432(0x272)+HANG_PATHS['h3']+'\x22/>\x0a\x20\x20\x20\x20\x20\x20</svg>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20──\x20Liquid\x20fill\x20area\x20──\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22liquid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mask\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20SVG\x20clip-path\x20definition\x20(zero-size,\x20just\x20holds\x20the\x20defs)\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20width=\x220\x22\x20height=\x220\x22\x20viewBox=\x220\x200\x20200\x20200\x22\x20style=\x22position:absolute\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<defs>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<clipPath\x20id=\x22fillmask\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20transform=\x22translate(-2.1\x200)\x20scale(0.80)\x22\x20d=\x22'+BLOB_CLIP_D+'\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</clipPath>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</defs>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Back\x20(behind)\x20liquid\x20layer\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22liquid-rect-wrap\x20liquid-rect-wrap-back\x22\x20id=\x22liquid-rect-wrap-back\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20id=\x22svg-element-back\x22\x20class=\x22liquid-rect-svg\x20liquid-rect-svg-back\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20viewBox=\x220\x200\x20224\x20251\x22\x20preserveAspectRatio=\x22none\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20id=\x22liquid-path-back\x22\x20fill=\x22'+_0x24394f+_0x1aa432(0x25b)+_0x5de896+'\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<stop\x20offset=\x22100%\x22\x20stop-color=\x22'+_0x57afff+_0x1aa432(0x23c)+_0x4c73d5+'\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-width=\x222\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linecap=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linejoin=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M0\x20251\x20L224\x20251\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x3aa6aa?buildParticleMarkup(0x26):'')+_0x1aa432(0x1b0)+buildHeartBurstMarkup(0xa)+'\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20──\x20Background\x20blob\x20shadow\x20──\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22back\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20width=\x22266.66666\x22\x20height=\x22240\x22\x20viewBox=\x220\x200\x20266.66666\x20240\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<g>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20transform=\x22translate(-2\x2040)\x20scale(0.76)\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22fill:#000000;fill-opacity:'+_0xe812c6+_0x1aa432(0x1f4)+BLOB_CLIP_D+'\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</g>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20──\x20Text\x20display\x20──\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22textcontainer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22textright\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22title\x22>'+_0x259dbb+_0x1aa432(0x185)+_0x5188bb+_0x1aa432(0x193)+_0x259dbb+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22text1\x22\x20id=\x22count-bottom\x22>0\x20/\x20'+_0x5188bb+_0x1aa432(0x17a);}class GoalWidget{constructor(){const _0x43a7e8=_0x47ce56;this[_0x43a7e8(0x26c)]={},this[_0x43a7e8(0x17b)]={'goalType':'','goalTarget':0x0,'currentAmount':0x0,'startAmount':0x0,'animatedPercent':0x0,'targetPercent':0x0,'timeframe':_0x43a7e8(0x1d6),'countResubs':![]},this['layers']={'front':{'wrapId':_0x43a7e8(0x276),'svgId':'svg-element','pathId':'liquid-path','bottom':-0x46,'left':-0x12,'width':0xe0,'height':0x119,'amplitude':0x5,'step':0x8,'speed':0.07,'opacity':0x1,'filterIdle':_0x43a7e8(0x252),'filterActive':'drop-shadow(0\x200\x207px\x20rgba(255,241,190,0.45))\x20drop-shadow(0\x200\x202px\x20rgba(255,241,190,0.45))','reverse':![],'percentOffset':0x0,'phaseOffset':0x0},'back':{'wrapId':'liquid-rect-wrap-back','svgId':_0x43a7e8(0x1ee),'pathId':_0x43a7e8(0x236),'bottom':-0x42,'left':-0x12,'width':0xe0,'height':0x119,'amplitude':0x7,'step':0x8,'speed':0.07,'opacity':0x1,'filterIdle':_0x43a7e8(0x246),'filterActive':'drop-shadow(0\x200\x206px\x20rgba(255,241,190,0.45))\x20drop-shadow(0\x200\x2010px\x20rgba(255,241,190,0.45))','reverse':!![],'percentOffset':-0x2,'phaseOffset':0x0},'stroke':{'wrapId':_0x43a7e8(0x24b),'svgId':'svg-element-stroke','pathId':_0x43a7e8(0x25c),'bottom':-0x48,'left':-0x12,'width':0xe0,'height':0x119,'amplitude':0x5,'step':0x8,'speed':0.09,'strokeWidth':0x2,'strokeColor':_0x43a7e8(0x1b4),'opacity':0x1,'filterIdle':'drop-shadow(0\x200\x203px\x20rgba(255,241,190,0.45))\x20drop-shadow(0\x200\x205px\x20rgba(255,241,190,0.45))','filterActive':_0x43a7e8(0x1d7),'reverse':![],'percentOffset':0x0,'phaseOffset':0x0}},this['_warpFrame']=null,this[_0x43a7e8(0x222)]=null,this[_0x43a7e8(0x257)]={'front':0x0,'back':0x0,'stroke':0x0};}[_0x47ce56(0x18f)](_0x551896){const _0x69bb=_0x47ce56,_0x10648c=_0x551896[_0x69bb(0x1d2)]||_0x69bb(0x1fc),_0x2fc4f9=parseFloat(_0x551896[_0x69bb(0x1a8)])||0.07,_0x273f50=parseFloat(_0x551896['strokespeed'])||0.09,_0x1d1b58=_0x551896[_0x69bb(0x1af)]||_0x69bb(0x1b4);this[_0x69bb(0x24d)][_0x69bb(0x1d0)][_0x69bb(0x198)]=_0x2fc4f9,this[_0x69bb(0x24d)][_0x69bb(0x26e)]['speed']=_0x2fc4f9,this[_0x69bb(0x24d)][_0x69bb(0x182)][_0x69bb(0x198)]=_0x273f50,this[_0x69bb(0x24d)][_0x69bb(0x1d0)][_0x69bb(0x180)]=_0x69bb(0x1cf)+_0x10648c+_0x69bb(0x1f9)+_0x10648c+')',this['layers']['front'][_0x69bb(0x224)]=_0x69bb(0x27a)+_0x10648c+_0x69bb(0x215)+_0x10648c+')',this['layers']['back'][_0x69bb(0x180)]='drop-shadow(0\x200\x204px\x20'+_0x10648c+_0x69bb(0x18e)+_0x10648c+')',this[_0x69bb(0x24d)][_0x69bb(0x26e)][_0x69bb(0x224)]='drop-shadow(0\x200\x206px\x20'+_0x10648c+_0x69bb(0x251)+_0x10648c+')',this[_0x69bb(0x24d)][_0x69bb(0x182)][_0x69bb(0x20d)]=_0x1d1b58,this[_0x69bb(0x24d)]['stroke'][_0x69bb(0x180)]=_0x69bb(0x1d8)+_0x10648c+_0x69bb(0x1cb)+_0x10648c+')',this[_0x69bb(0x24d)][_0x69bb(0x182)][_0x69bb(0x224)]=_0x69bb(0x1cf)+_0x10648c+_0x69bb(0x191)+_0x10648c+')';}['getNumber'](_0x25c738,_0x13de60=0x0){const _0x10da2b=Number(_0x25c738);return Number['isFinite'](_0x10da2b)?_0x10da2b:_0x13de60;}[_0x47ce56(0x1fb)](_0x1bea8c){return 0x1-Math['pow'](0x1-_0x1bea8c,0x3);}[_0x47ce56(0x1ea)](_0x22075c,_0x4274ef){const _0x1bb8de=_0x47ce56,_0x71085b=String(_0x4274ef||_0x1bb8de(0x1d6))[_0x1bb8de(0x23b)]();if(_0x71085b===_0x1bb8de(0x21f))return _0x22075c+_0x1bb8de(0x187);if(_0x71085b===_0x1bb8de(0x19c))return _0x22075c+_0x1bb8de(0x1f7);if(_0x71085b===_0x1bb8de(0x270))return _0x22075c+_0x1bb8de(0x183);if(_0x71085b===_0x1bb8de(0x1a4))return null;return _0x22075c+_0x1bb8de(0x1ce);}['computeSubscriberIncrement'](_0x1af71e,_0xebd1){const _0x16b6cf=_0x47ce56;if(_0xebd1){if(_0x1af71e&&_0x1af71e['bulkGifted'])return this['getNumber'](_0x1af71e['amount'],0x1);return 0x1;}const _0x32486a=String(_0x1af71e?.[_0x16b6cf(0x226)]||_0x1af71e?.[_0x16b6cf(0x179)]||'')[_0x16b6cf(0x23b)](),_0x362a26=_0x1af71e?.[_0x16b6cf(0x197)]===!![]||_0x1af71e?.[_0x16b6cf(0x25e)]===!![]||_0x32486a[_0x16b6cf(0x205)](_0x16b6cf(0x258));if(_0x362a26)return 0x0;if(_0x1af71e&&_0x1af71e[_0x16b6cf(0x1f1)])return this[_0x16b6cf(0x1c3)](_0x1af71e[_0x16b6cf(0x254)],0x1);return 0x1;}[_0x47ce56(0x20b)](_0x1e7c1a){const _0x192c37=_0x47ce56,_0x52f6f9=document['getElementById'](_0x192c37(0x1bd))||document[_0x192c37(0x1dc)];_0x52f6f9[_0x192c37(0x196)]=buildWidgetTemplate(_0x1e7c1a);}[_0x47ce56(0x1f2)](_0x694a89){const _0x4d7ea7=_0x47ce56,_0x40f79a=document[_0x4d7ea7(0x271)](_0x694a89[_0x4d7ea7(0x277)]),_0x7818b8=document[_0x4d7ea7(0x271)](_0x694a89[_0x4d7ea7(0x26b)]),_0x1773b2=document[_0x4d7ea7(0x271)](_0x694a89[_0x4d7ea7(0x218)]);if(_0x40f79a){_0x40f79a['style'][_0x4d7ea7(0x212)]='absolute',_0x40f79a['style'][_0x4d7ea7(0x21d)]=_0x694a89[_0x4d7ea7(0x21d)]+'px',_0x40f79a[_0x4d7ea7(0x243)][_0x4d7ea7(0x1ed)]=_0x694a89['bottom']+'px',_0x40f79a['style'][_0x4d7ea7(0x250)]=_0x694a89['width']+'px',_0x40f79a[_0x4d7ea7(0x243)][_0x4d7ea7(0x202)]=_0x694a89[_0x4d7ea7(0x202)]+'px',_0x40f79a['style'][_0x4d7ea7(0x1fe)]=_0x4d7ea7(0x1ff),_0x40f79a['style'][_0x4d7ea7(0x264)]='none';if(_0x694a89===this['layers'][_0x4d7ea7(0x26e)])_0x40f79a[_0x4d7ea7(0x243)][_0x4d7ea7(0x1c2)]='0';if(_0x694a89===this[_0x4d7ea7(0x24d)]['front'])_0x40f79a[_0x4d7ea7(0x243)][_0x4d7ea7(0x1c2)]='1';if(_0x694a89===this[_0x4d7ea7(0x24d)][_0x4d7ea7(0x182)])_0x40f79a[_0x4d7ea7(0x243)]['zIndex']='3';}_0x7818b8&&(_0x7818b8[_0x4d7ea7(0x243)][_0x4d7ea7(0x212)]='absolute',_0x7818b8[_0x4d7ea7(0x243)][_0x4d7ea7(0x21d)]='0',_0x7818b8['style'][_0x4d7ea7(0x1ed)]='0',_0x7818b8[_0x4d7ea7(0x243)][_0x4d7ea7(0x250)]=_0x694a89[_0x4d7ea7(0x250)]+'px',_0x7818b8[_0x4d7ea7(0x243)][_0x4d7ea7(0x202)]=_0x694a89['height']+'px',_0x7818b8['style'][_0x4d7ea7(0x25d)]='block',_0x7818b8['style']['overflow']=_0x4d7ea7(0x1ad),_0x7818b8[_0x4d7ea7(0x243)]['pointerEvents']=_0x4d7ea7(0x1df),_0x7818b8[_0x4d7ea7(0x243)][_0x4d7ea7(0x25f)]=String(_0x694a89['opacity']),_0x7818b8['style'][_0x4d7ea7(0x1ca)]=_0x4d7ea7(0x1d9),_0x7818b8['style'][_0x4d7ea7(0x1d4)]=_0x4d7ea7(0x268),_0x7818b8[_0x4d7ea7(0x243)]['filter']=_0x694a89[_0x4d7ea7(0x180)]),_0x1773b2&&_0x694a89===this[_0x4d7ea7(0x24d)][_0x4d7ea7(0x182)]&&(_0x1773b2[_0x4d7ea7(0x22b)](_0x4d7ea7(0x1bf),'none'),_0x1773b2[_0x4d7ea7(0x22b)](_0x4d7ea7(0x182),_0x694a89[_0x4d7ea7(0x20d)]),_0x1773b2[_0x4d7ea7(0x22b)](_0x4d7ea7(0x249),String(_0x694a89[_0x4d7ea7(0x255)])),_0x1773b2['setAttribute']('stroke-linecap',_0x4d7ea7(0x1bb)),_0x1773b2[_0x4d7ea7(0x22b)](_0x4d7ea7(0x22f),'round'));}[_0x47ce56(0x232)](){const _0x19eb83=_0x47ce56;this['applyLayerStyles'](this[_0x19eb83(0x24d)][_0x19eb83(0x26e)]),this[_0x19eb83(0x1f2)](this[_0x19eb83(0x24d)]['front']),this['applyLayerStyles'](this[_0x19eb83(0x24d)][_0x19eb83(0x182)]);}[_0x47ce56(0x239)](_0x1972ec,_0x140627,_0x39c72a){const _0x29616d=_0x47ce56,{width:_0x401001,height:_0x2080b6,amplitude:_0x582114,step:_0x221855,reverse:_0xa3b989}=_0x1972ec,_0x1730f6=_0xa3b989?-0x1:0x1;let _0x24705d=_0x29616d(0x23a)+_0x140627;for(let _0x22117a=0x0;_0x22117a<=_0x401001;_0x22117a+=_0x221855){let _0x4622cc;_0x1972ec===this['layers'][_0x29616d(0x182)]?_0x4622cc=_0xa3b989?_0x22117a/0x23-_0x39c72a+_0x1972ec[_0x29616d(0x18d)]:_0x22117a/0x23+_0x39c72a+_0x1972ec[_0x29616d(0x18d)]:_0x4622cc=_0xa3b989?_0x22117a/0x17-_0x39c72a+_0x1972ec[_0x29616d(0x18d)]:_0x22117a/0x12+_0x39c72a+_0x1972ec['phaseOffset'];const _0x55b75a=_0x140627+_0x1730f6*_0x582114*Math[_0x29616d(0x192)](_0x4622cc);_0x24705d+=_0x29616d(0x260)+_0x22117a+'\x20'+_0x55b75a;}if(_0x1972ec===this[_0x29616d(0x24d)][_0x29616d(0x182)])return _0x24705d;return _0x24705d+='\x20L\x20'+_0x401001+'\x20'+_0x2080b6+_0x29616d(0x1b1)+_0x2080b6+'\x20Z',_0x24705d;}[_0x47ce56(0x253)](_0x3cc0b5,_0x30470b){const _0x306871=_0x47ce56;return Math[_0x306871(0x26f)](0x0,Math['min'](_0x30470b+_0x3cc0b5['percentOffset'],0x64));}[_0x47ce56(0x200)](){const _0x5a2fc7=_0x47ce56,_0x233759=document['getElementById'](this[_0x5a2fc7(0x24d)][_0x5a2fc7(0x1d0)][_0x5a2fc7(0x218)]),_0x4c4b4b=document[_0x5a2fc7(0x271)](this[_0x5a2fc7(0x24d)][_0x5a2fc7(0x26e)][_0x5a2fc7(0x218)]),_0x2d7397=document['getElementById'](this[_0x5a2fc7(0x24d)][_0x5a2fc7(0x182)][_0x5a2fc7(0x218)]);if(!_0x233759||!_0x4c4b4b||!_0x2d7397)return;this[_0x5a2fc7(0x1e3)]&&(cancelAnimationFrame(this['_warpFrame']),this[_0x5a2fc7(0x1e3)]=null);let _0x4cc994=performance['now']();const _0x2877c9=_0x1178bb=>{const _0x407c8c=_0x5a2fc7,_0x2fbc89=Math[_0x407c8c(0x22e)]((_0x1178bb-_0x4cc994)/0x3e8,0.1);_0x4cc994=_0x1178bb;const _0x51063d=_0x2fbc89*0x3c,_0x3c0741=document[_0x407c8c(0x1b7)](_0x407c8c(0x1e9)),_0x55c5cc=_0x3c0741?_0x3c0741[_0x407c8c(0x1b5)]:this[_0x407c8c(0x24d)]['front']['height'];this[_0x407c8c(0x257)][_0x407c8c(0x1d0)]+=this['layers']['front']['speed']*_0x51063d,this[_0x407c8c(0x257)]['back']+=this[_0x407c8c(0x24d)][_0x407c8c(0x26e)]['speed']*_0x51063d,this[_0x407c8c(0x257)]['stroke']+=this['layers'][_0x407c8c(0x182)][_0x407c8c(0x198)]*_0x51063d;const _0x190a67=this[_0x407c8c(0x253)](this[_0x407c8c(0x24d)][_0x407c8c(0x1d0)],this[_0x407c8c(0x17b)][_0x407c8c(0x1d3)]),_0x4e2f77=this[_0x407c8c(0x253)](this[_0x407c8c(0x24d)]['back'],this[_0x407c8c(0x17b)][_0x407c8c(0x1d3)]),_0x8d269d=this[_0x407c8c(0x253)](this[_0x407c8c(0x24d)]['stroke'],this[_0x407c8c(0x17b)][_0x407c8c(0x1d3)]);_0x233759['setAttribute']('d',this[_0x407c8c(0x239)](this[_0x407c8c(0x24d)][_0x407c8c(0x1d0)],_0x55c5cc*(0x1-_0x190a67/0x64),this[_0x407c8c(0x257)][_0x407c8c(0x1d0)])),_0x4c4b4b[_0x407c8c(0x22b)]('d',this[_0x407c8c(0x239)](this['layers']['back'],_0x55c5cc*(0x1-_0x4e2f77/0x64),this[_0x407c8c(0x257)]['back'])),_0x2d7397['setAttribute']('d',this['buildLiquidPath'](this[_0x407c8c(0x24d)][_0x407c8c(0x182)],_0x55c5cc*(0x1-_0x8d269d/0x64),this[_0x407c8c(0x257)][_0x407c8c(0x182)])),this['_warpFrame']=requestAnimationFrame(_0x2877c9);};this[_0x5a2fc7(0x1e3)]=requestAnimationFrame(_0x2877c9);}[_0x47ce56(0x1f5)](_0x22df04){const _0x69c0a9=_0x47ce56,_0x3a6526=this[_0x69c0a9(0x17b)][_0x69c0a9(0x1d3)],_0x31344f=Math[_0x69c0a9(0x26f)](0x0,Math['min'](_0x22df04,0x64)),_0x48dfe0=0x384,_0x333f3f=performance[_0x69c0a9(0x213)]();this['_percentTweenFrame']&&cancelAnimationFrame(this[_0x69c0a9(0x222)]);const _0x22b7a6=_0xb4479a=>{const _0x22eb8b=_0x69c0a9,_0x16774b=Math[_0x22eb8b(0x22e)]((_0xb4479a-_0x333f3f)/_0x48dfe0,0x1),_0x2430de=this[_0x22eb8b(0x1fb)](_0x16774b);this[_0x22eb8b(0x17b)][_0x22eb8b(0x1d3)]=_0x3a6526+(_0x31344f-_0x3a6526)*_0x2430de,_0x16774b<0x1?this[_0x22eb8b(0x222)]=requestAnimationFrame(_0x22b7a6):(this[_0x22eb8b(0x17b)]['animatedPercent']=_0x31344f,this[_0x22eb8b(0x222)]=null);};this[_0x69c0a9(0x222)]=requestAnimationFrame(_0x22b7a6);}[_0x47ce56(0x26a)](_0x262a63){const _0x2329a5=_0x47ce56,_0x2831eb=document['querySelector'](CONFIG[_0x2329a5(0x1bc)][_0x2329a5(0x24a)]);if(!_0x2831eb)return;const _0x3bbf36=String(this[_0x2329a5(0x26c)]?.[_0x2329a5(0x275)]||'on')[_0x2329a5(0x23b)]()!==_0x2329a5(0x25a);if(!_0x3bbf36){document['documentElement'][_0x2329a5(0x243)][_0x2329a5(0x1aa)](_0x2329a5(0x1f8),'0'),_0x2831eb[_0x2329a5(0x247)]['remove']('is-active');return;}const _0x5b5eb1=Math[_0x2329a5(0x26f)](0x0,Math[_0x2329a5(0x22e)](_0x262a63/0x64,0x1));document[_0x2329a5(0x231)][_0x2329a5(0x243)][_0x2329a5(0x1aa)](_0x2329a5(0x1f8),String(_0x5b5eb1)),_0x2831eb[_0x2329a5(0x247)][_0x2329a5(0x1db)]('is-active',_0x262a63>0x0);}[_0x47ce56(0x201)](_0x506285){const _0x3f82f7=_0x47ce56,_0x54c909=document['querySelector'](CONFIG[_0x3f82f7(0x1bc)][_0x3f82f7(0x1dd)]);if(!_0x54c909)return;const _0x4b51e8=String(this['fieldData']?.[_0x3f82f7(0x227)]||'on')[_0x3f82f7(0x23b)]()!==_0x3f82f7(0x25a);if(!_0x4b51e8){_0x54c909[_0x3f82f7(0x247)]['remove']('is-full');return;}_0x54c909[_0x3f82f7(0x247)][_0x3f82f7(0x1db)]('is-full',_0x506285>=0x64);}['updateLayerVisuals'](_0x58e65b,_0x4d7e38){const _0x3ca08d=_0x47ce56,_0x4212bc=document['getElementById'](_0x58e65b[_0x3ca08d(0x26b)]);if(!_0x4212bc)return;_0x4212bc[_0x3ca08d(0x243)][_0x3ca08d(0x1ef)]=_0x4d7e38?_0x58e65b[_0x3ca08d(0x224)]:_0x58e65b[_0x3ca08d(0x180)];}[_0x47ce56(0x1fa)](){const _0x2bed1c=_0x47ce56,_0x54adb6=this[_0x2bed1c(0x1c3)](this[_0x2bed1c(0x17b)][_0x2bed1c(0x1be)]),_0x5cdb27=this[_0x2bed1c(0x1c3)](this['state']['goalTarget']),_0x1878ba=this[_0x2bed1c(0x17b)][_0x2bed1c(0x211)],_0x162604=_0x5cdb27>0x0?Math[_0x2bed1c(0x22e)](_0x54adb6/_0x5cdb27*0x64,0x64):0x0;this[_0x2bed1c(0x17b)][_0x2bed1c(0x273)]=_0x162604,this[_0x2bed1c(0x1f5)](_0x162604),this[_0x2bed1c(0x1a9)](this[_0x2bed1c(0x24d)][_0x2bed1c(0x1d0)],_0x162604>0x0),this[_0x2bed1c(0x1a9)](this[_0x2bed1c(0x24d)][_0x2bed1c(0x26e)],_0x162604>0x0),this[_0x2bed1c(0x1a9)](this[_0x2bed1c(0x24d)]['stroke'],_0x162604>0x0),this['updateParticleProgress'](_0x162604),this[_0x2bed1c(0x201)](_0x162604);let _0x3721cd,_0x967aa8;_0x1878ba===_0x2bed1c(0x23e)?(_0x3721cd=CONFIG['currency']+Math[_0x2bed1c(0x22c)](_0x54adb6),_0x967aa8=CONFIG[_0x2bed1c(0x1e0)]+Math[_0x2bed1c(0x22c)](_0x5cdb27)):(_0x3721cd=Math[_0x2bed1c(0x22c)](_0x54adb6),_0x967aa8=Math[_0x2bed1c(0x22c)](_0x5cdb27));const _0x53d630=_0x3721cd+_0x2bed1c(0x1e7)+_0x967aa8,_0x514fe5=document[_0x2bed1c(0x1b7)](CONFIG[_0x2bed1c(0x1bc)][_0x2bed1c(0x1e8)]),_0x471cef=document[_0x2bed1c(0x1b7)](CONFIG['selectors'][_0x2bed1c(0x217)]);if(_0x514fe5)_0x514fe5['innerText']=_0x53d630;if(_0x471cef)_0x471cef[_0x2bed1c(0x1ec)]=_0x53d630;}[_0x47ce56(0x1e1)](_0x33e1e2){const _0x2b3ce8=_0x47ce56,_0x1849ea=document[_0x2b3ce8(0x1b7)](CONFIG[_0x2b3ce8(0x1bc)]['containerRight']),_0x14b64f=document['querySelector'](CONFIG[_0x2b3ce8(0x1bc)][_0x2b3ce8(0x240)]);if(!_0x1849ea||!_0x14b64f)return;document['body'][_0x2b3ce8(0x247)][_0x2b3ce8(0x1cc)](_0x2b3ce8(0x279),_0x2b3ce8(0x210)),_0x33e1e2==='right'?(_0x1849ea[_0x2b3ce8(0x243)][_0x2b3ce8(0x1c6)]=_0x2b3ce8(0x1ad),_0x14b64f[_0x2b3ce8(0x243)]['visibility']='hidden',document[_0x2b3ce8(0x1dc)]['classList'][_0x2b3ce8(0x1c7)]('pos-right')):(_0x1849ea[_0x2b3ce8(0x243)][_0x2b3ce8(0x1c6)]=_0x2b3ce8(0x1ff),_0x14b64f[_0x2b3ce8(0x243)]['visibility']=_0x2b3ce8(0x1ad),document[_0x2b3ce8(0x1dc)][_0x2b3ce8(0x247)][_0x2b3ce8(0x1c7)]('pos-bottom'));}[_0x47ce56(0x259)](_0x465cd0){const _0x299966=_0x47ce56,_0x2a7e94=this[_0x299966(0x17b)][_0x299966(0x211)],_0x2f6597=this[_0x299966(0x17b)][_0x299966(0x278)]||_0x299966(0x1d6),_0x3a39ff=(_0x44ac8e,_0x435d31)=>{const _0x364e38=_0x299966,_0x107a6a=_0x465cd0[_0x44ac8e];return _0x107a6a?this[_0x364e38(0x1c3)](_0x107a6a[_0x435d31]):0x0;};if(String(_0x2f6597)['toLowerCase']()==='manual'){this[_0x299966(0x17b)][_0x299966(0x1be)]=this['getNumber'](this['state'][_0x299966(0x21b)],0x0);return;}let _0x364494=0x0;if(_0x2a7e94==='follower')_0x364494=0x0;else{const _0x205e4a={'subscriber':_0x299966(0x266),'tip':_0x299966(0x23e),'cheer':'cheer','raid':_0x299966(0x181)},_0x3a1374=_0x205e4a[_0x2a7e94];if(_0x3a1374){const _0x1f818e=this[_0x299966(0x1ea)](_0x3a1374,_0x2f6597);if(_0x1f818e){const _0x2ecc14=_0x2a7e94===_0x299966(0x23e)||_0x2a7e94===_0x299966(0x22a)?'amount':'count';_0x364494=_0x3a39ff(_0x1f818e,_0x2ecc14);}}}this['state']['currentAmount']=this['getNumber'](_0x364494)+this[_0x299966(0x1c3)](this[_0x299966(0x17b)][_0x299966(0x21b)],0x0);}[_0x47ce56(0x269)](_0x387d5c){const _0x20d801=_0x47ce56;this[_0x20d801(0x17b)][_0x20d801(0x1be)]=this['getNumber'](this[_0x20d801(0x17b)][_0x20d801(0x1be)])+this[_0x20d801(0x1c3)](_0x387d5c,0x0);}[_0x47ce56(0x18b)](_0xf99677,_0x8baad9){const _0x469417=_0x47ce56;if(!_0x8baad9)return;const _0x13aee9=_0x3665d8=>this[_0x469417(0x1c3)](_0x3665d8),_0x376d85={'follower-latest':()=>this['increment'](0x1),'subscriber-latest':()=>this[_0x469417(0x269)](this[_0x469417(0x234)](_0x8baad9,this['state'][_0x469417(0x1c0)])),'tip-latest':()=>this[_0x469417(0x269)](_0x13aee9(_0x8baad9['amount'])),'cheer-latest':()=>this['increment'](_0x13aee9(_0x8baad9['amount'])),'raid-latest':()=>this[_0x469417(0x269)](_0x13aee9(_0x8baad9[_0x469417(0x228)]??_0x8baad9[_0x469417(0x254)]))};_0xf99677[_0x469417(0x17e)](this[_0x469417(0x17b)]['goalType'])&&_0x376d85[_0xf99677]&&(_0x376d85[_0xf99677](),this['updateUI']());}[_0x47ce56(0x23d)](_0x10fe0b){const _0x200fbb=_0x47ce56,{fieldData:_0x4cf650,session:_0x2f4961}=_0x10fe0b,_0x621710=_0x2f4961?.[_0x200fbb(0x23f)]||{};this['fieldData']=_0x4cf650||{},this[_0x200fbb(0x20b)](this['fieldData']),this['applyFieldDataToLayers'](this[_0x200fbb(0x26c)]),CONFIG[_0x200fbb(0x1e0)]=String(this['fieldData'][_0x200fbb(0x177)]??'')[_0x200fbb(0x225)]()||'$',applyFonts(this[_0x200fbb(0x26c)]);const _0x4108ae=[_0x200fbb(0x1a0),_0x200fbb(0x266),_0x200fbb(0x23e),'cheer',_0x200fbb(0x181)];let _0x47cc46=this[_0x200fbb(0x26c)][_0x200fbb(0x211)]||_0x200fbb(0x23e);if(!_0x4108ae[_0x200fbb(0x205)](_0x47cc46))_0x47cc46='tip';this[_0x200fbb(0x17b)]['goalType']=_0x47cc46,this[_0x200fbb(0x17b)]['goalTarget']=this[_0x200fbb(0x1c3)](this[_0x200fbb(0x26c)][_0x200fbb(0x207)]??this[_0x200fbb(0x26c)][_0x200fbb(0x233)]??0x0),this['state'][_0x200fbb(0x21b)]=this[_0x200fbb(0x1c3)](this['fieldData'][_0x200fbb(0x21b)]||0x0),this[_0x200fbb(0x17b)][_0x200fbb(0x278)]=this[_0x200fbb(0x26c)][_0x200fbb(0x278)]||'total',this[_0x200fbb(0x17b)][_0x200fbb(0x1c0)]=!!this[_0x200fbb(0x26c)][_0x200fbb(0x1a7)];const _0x5953a5=String(this[_0x200fbb(0x26c)]['backWaveOpacity']||'on')[_0x200fbb(0x23b)]();this[_0x200fbb(0x24d)][_0x200fbb(0x26e)][_0x200fbb(0x25f)]=_0x5953a5===_0x200fbb(0x25a)?0x0:0x1,this[_0x200fbb(0x1e1)](this[_0x200fbb(0x26c)]['textPosition']||this[_0x200fbb(0x26c)][_0x200fbb(0x214)]||_0x200fbb(0x1ed));const _0x204678=(this['fieldData'][_0x200fbb(0x20e)]||_0x200fbb(0x1b2))[_0x200fbb(0x23b)]();document[_0x200fbb(0x1dc)][_0x200fbb(0x247)][_0x200fbb(0x1cc)](_0x200fbb(0x184),_0x200fbb(0x1f3)),document[_0x200fbb(0x1dc)][_0x200fbb(0x247)][_0x200fbb(0x1c7)](_0x204678==='two'?_0x200fbb(0x1f3):_0x200fbb(0x184));const _0x52bec3=(this['fieldData']['textBgToggle']||'on')[_0x200fbb(0x23b)]();document[_0x200fbb(0x1dc)][_0x200fbb(0x247)][_0x200fbb(0x1cc)](_0x200fbb(0x24f),'textbg-off'),document[_0x200fbb(0x1dc)]['classList']['add'](_0x52bec3===_0x200fbb(0x25a)?_0x200fbb(0x1ac):_0x200fbb(0x24f)),this[_0x200fbb(0x259)](_0x621710);const _0x4d091d=this[_0x200fbb(0x17b)]['goalTarget']>0x0?Math[_0x200fbb(0x22e)](this['state']['currentAmount']/this[_0x200fbb(0x17b)][_0x200fbb(0x207)]*0x64,0x64):0x0;this[_0x200fbb(0x17b)][_0x200fbb(0x1d3)]=_0x4d091d,this[_0x200fbb(0x17b)]['targetPercent']=_0x4d091d,this['applyLiquidRectInlineStyles'](),this['initLiquidWarp'](),this[_0x200fbb(0x1fa)]();}}const widget=new GoalWidget();function _0x1cc4(_0xba882b,_0xbfe7ab){_0xba882b=_0xba882b-0x177;const _0x2d68f7=_0x2d68();let _0x1cc4f8=_0x2d68f7[_0xba882b];return _0x1cc4f8;}window[_0x47ce56(0x262)](_0x47ce56(0x274),_0x4f289b=>widget['init'](_0x4f289b['detail'])),window[_0x47ce56(0x262)](_0x47ce56(0x209),_0x1c7d6b=>widget['handleEvent'](_0x1c7d6b[_0x47ce56(0x1a6)][_0x47ce56(0x20c)],_0x1c7d6b['detail'][_0x47ce56(0x1e6)]));
+const CONFIG = {
+  currency: "$",
+  selectors: {
+    textRight:       "#count-right",
+    textBottom:      "#count-bottom",
+    containerRight:  ".textright",
+    containerBottom: ".textbottom",
+    particleLayer:   "#particle-layer",
+    heartBurst:      "#heart-burst"
+  }
+};
+
+const PARTICLE_SHAPES = {
+  // ── Circle bubbles — 4 size variations ──────────────────────────────────
+  // All centered at 50,50 in a 100×100 viewBox.
+  // The 0.001 offset on the arc endpoint is the standard SVG trick to
+  // force a full 360° sweep without the path collapsing to nothing.
+
+  starLarge:
+    "M 50,5 a 45,45 0 1,0 0.001,0 Z",      // XL bubble   r=45
+
+  starThin:
+    "M 50,15 a 35,35 0 1,0 0.001,0 Z",     // Large bubble r=35
+
+  sparkDiamond:
+    "M 50,25 a 25,25 0 1,0 0.001,0 Z",     // Medium bubble r=25
+
+  dot:
+    "M 50,35 a 15,15 0 1,0 0.001,0 Z"      // Small bubble  r=15
+};
+
+const HEART_PATH =
+  "M181.07,113.46l-16.01,11.34c-9.49,6.7-16.35,16.48-19.38,27.7l-4.25,15.67l-0.94,3.44l-0.58,1.76l-0.78-1.7l-1.27-3.33 l-5.76-15.18c-4.11-10.87-11.9-19.93-22-25.67l-17.04-9.72l15.89-12.26c8.35-6.46,14.45-15.39,17.42-25.5l7.62-25.98l0.08,0.14 l0.03-0.15l10.12,25.11c3.95,9.77,10.89,18.06,19.83,23.68L181.07,113.46z";
+
+// ── SVG Shape Constants (extracted so buildWidgetTemplate stays clean) ───────
+
+const STAR_PATHS = {
+  s1: "M181.07,113.46l-16.01,11.34c-9.49,6.7-16.35,16.48-19.38,27.7l-4.25,15.67l-0.94,3.44l-0.58,1.76l-0.78-1.7l-1.27-3.33 l-5.76-15.18c-4.11-10.87-11.9-19.93-22-25.67l-17.04-9.72l15.89-12.26c8.35-6.46,14.45-15.39,17.42-25.5l7.62-25.98l0.08,0.14 l0.03-0.15l10.12,25.11c3.95,9.77,10.89,18.06,19.83,23.68L181.07,113.46z",
+  s2: "M162.29,119.84l-10.66,7.55c-6.31,4.46-10.88,10.97-12.9,18.44l-2.83,10.43l-0.62,2.29l-0.38,1.17l-0.52-1.13l-0.85-2.22 l-3.83-10.1c-2.74-7.23-7.92-13.26-14.64-17.08l-11.34-6.47l10.58-8.16c5.56-4.3,9.61-10.24,11.59-16.97l5.07-17.29l0.05,0.1 l0.02-0.1L137.76,97c2.63,6.5,7.24,12.02,13.2,15.76L162.29,119.84z",
+  s3: "M153.85,119.89l-7.59,5.37c-4.49,3.17-7.75,7.81-9.18,13.12l-2.01,7.42l-0.44,1.63l-0.27,0.83l-0.37-0.8l-0.6-1.58l-2.73-7.19c-1.95-5.15-5.64-9.44-10.42-12.16l-8.07-4.6l7.53-5.81c3.96-3.06,6.84-7.29,8.25-12.08l3.61-12.31l0.04,0.07l0.01-0.07l4.8,11.9c1.87,4.63,5.16,8.56,9.4,11.22L153.85,119.89z",
+  s4: "M157.28,111.06l-10.71,7.46c-6.35,4.41-10.97,10.88-13.04,18.33l-2.91,10.41l-0.64,2.28l-0.39,1.17l-0.51-1.13 l-0.83-2.22l-3.76-10.13c-2.68-7.25-7.82-13.33-14.51-17.2l-11.29-6.55l10.64-8.07c5.59-4.26,9.69-10.17,11.72-16.88l5.2-17.25 l0.05,0.1l0.02-0.1l6.61,16.76c2.58,6.52,7.15,12.08,13.08,15.86L157.28,111.06z M163.32,152.15c-2.1-1.34-3.72-3.31-4.63-5.61 l-2.34-5.94l-0.01,0.04l-0.02-0.03l-1.84,6.11c-0.72,2.38-2.17,4.47-4.15,5.98l-3.77,2.86l4,2.32c2.37,1.37,4.19,3.52,5.14,6.09 l1.33,3.59l0.29,0.79l0.18,0.4l0.14-0.41l0.23-0.81l1.03-3.68c0.73-2.64,2.37-4.93,4.62-6.49l3.79-2.64L163.32,152.15z"
+};
+
+const HANG_PATHS = {
+  h1: "M57.69,26.76v-0.42c0-1.11,0.9-2.01,2.01-2.01c1.11,0,2.01,0.9,2.01,2.01v0.42c0,1.11-0.9,2.01-2.01,2.01 C58.59,28.77,57.69,27.87,57.69,26.76z M59.7,36.92c1.11,0,2.01-0.9,2.01-2.01v-0.24c0-1.11-0.9-1.89-2.01-1.89 c-1.11,0-2.01,1.02-2.01,2.13S58.59,36.92,59.7,36.92z M59.7,48.05c1.11,0,2.01-0.91,2.01-2.02v-0.42c0-1.11-0.9-2.01-2.01-2.01 c-1.11,0-2.01,0.9-2.01,2.01v0.42C57.69,47.13,58.59,48.05,59.7,48.05z M58.7,94.33c0,0.56,0.45,1,1,1c0.56,0,1.01-0.44,1.01-1 v-0.21c0-0.56-0.45-1.01-1.01-1.01c-0.55,0-1,0.45-1,1.01V94.33z M59.7,17.82c1.11,0,2.01-0.91,2.01-2.02v-0.42 c0-1.11-0.9-2.01-2.01-2.01c-1.11,0-2.01,0.9-2.01,2.01v0.42C57.69,16.92,58.59,17.82,59.7,17.82z M59.7,6.86 c1.11,0,2.01-0.89,2.01-2.01V4.44c0-1.12-0.9-2.01-2.01-2.01c-1.11,0-2.01,0.89-2.01,2.01v0.41C57.69,5.98,58.59,6.86,59.7,6.86z M73.12,68.31l-9.27-1.34l-3.94-7.99c1.01-0.11,1.8-0.96,1.8-2v-0.43c0-1.1-0.9-2.01-2.01-2.01c-1.11,0-2.01,0.91-2.01,2.01v0.43 c0,1.04,0.79,1.89,1.8,2l-3.93,7.99l-9.27,1.34l6.7,6.55l-1.58,9.24l8.29-4.36l8.29,4.36l-1.58-9.24L73.12,68.31z M59.7,84.39 c0.56,0,1.01-0.46,1.01-1.01v-0.21c0-0.56-0.45-1.01-1.01-1.01c-0.55,0-1,0.45-1,1.01v0.21C58.7,83.93,59.15,84.39,59.7,84.39z M58.7,88.86c0,0.55,0.45,1,1,1c0.56,0,1.01-0.45,1.01-1v-0.21c0-0.56-0.45-1.01-1.01-1.01c-0.55,0-1,0.45-1,1.01V88.86z M59.7,97.36c-2.19,0-3.97,1.78-3.97,3.98c0,2.19,1.78,3.97,3.97,3.97s3.97-1.78,3.97-3.97C63.67,99.13,61.89,97.36,59.7,97.36z",
+  h2: "M84.9,129.17c0-0.81,0.66-1.48,1.48-1.48s1.48,0.67,1.48,1.48v0.31c0,0.82-0.66,1.49-1.48,1.49 s-1.48-0.67-1.48-1.49V129.17z M86.38,69.36c1.63,0,2.96-1.33,2.96-2.96v-0.63c0-1.63-1.33-2.96-2.96-2.96s-2.96,1.33-2.96,2.96 v0.63C83.42,68.03,84.75,69.36,86.38,69.36z M86.38,122.9c0.82,0,1.48-0.67,1.48-1.48v-0.31c0-0.82-0.66-1.49-1.48-1.49 s-1.48,0.67-1.48,1.49v0.31C84.9,122.23,85.56,122.9,86.38,122.9z M84.9,137.54c0,0.83,0.66,1.48,1.48,1.48s1.48-0.65,1.48-1.48 v-0.3c0-0.83-0.66-1.48-1.48-1.48s-1.48,0.65-1.48,1.48V137.54z M86.38,8.72c1.63,0,2.96-1.32,2.96-2.97V5.14 c0-1.65-1.33-2.96-2.96-2.96s-2.96,1.31-2.96,2.96v0.61C83.42,7.4,84.75,8.72,86.38,8.72z M86.38,24.85c1.63,0,2.96-1.33,2.96-2.96 v-0.63c0-1.63-1.33-2.96-2.96-2.96s-2.96,1.33-2.96,2.96v0.63C83.42,23.52,84.75,24.85,86.38,24.85z M86.38,40.98 c1.63,0,2.96-1.33,2.96-2.96V37.4c0-1.63-1.33-2.96-2.96-2.96s-2.96,1.33-2.96,2.96v0.62C83.42,39.65,84.75,40.98,86.38,40.98z M86.38,52.97c1.63,0,2.96-1.33,2.96-2.95v-0.36c0-1.63-1.33-2.78-2.96-2.78s-2.96,1.5-2.96,3.13 C83.42,51.65,84.75,52.97,86.38,52.97z M86.38,142c-3.23,0-5.85,2.62-5.85,5.85c0,3.23,2.62,5.85,5.85,5.85s5.85-2.62,5.85-5.85 C92.23,144.62,89.61,142,86.38,142z M106.14,99.23l-13.65-1.99l-5.8-11.76c1.49-0.15,2.65-1.43,2.65-2.95v-0.62 c0-1.64-1.33-2.97-2.96-2.97s-2.96,1.33-2.96,2.97v0.62c0,1.52,1.16,2.8,2.65,2.95l-5.8,11.76l-13.65,1.99l9.88,9.64l-2.33,13.61 l12.21-6.43l12.21,6.43l-2.33-13.61L106.14,99.23z",
+  h3: "M41.39,2.59V2.28c0-0.82,0.66-1.48,1.48-1.48c0.81,0,1.48,0.66,1.48,1.48v0.31c0,0.82-0.67,1.48-1.48,1.48 C42.05,4.07,41.39,3.41,41.39,2.59z M52.75,49.32l-6.83-0.99l-2.9-5.89c0.74-0.06,1.33-0.7,1.33-1.47v-0.31 c0-0.81-0.67-1.48-1.48-1.48c-0.82,0-1.48,0.67-1.48,1.48v0.31c0,0.77,0.58,1.41,1.33,1.47l-2.91,5.89l-6.82,0.99l4.94,4.82 l-1.17,6.81l6.11-3.21l6.1,3.21l-1.16-6.81L52.75,49.32z M42.87,61.16c0.41,0,0.74-0.33,0.74-0.74v-0.16c0-0.41-0.33-0.74-0.74-0.74 s-0.74,0.33-0.74,0.74v0.16C42.13,60.83,42.46,61.16,42.87,61.16z M42.13,64.45c0,0.41,0.33,0.74,0.74,0.74s0.74-0.33,0.74-0.74 V64.3c0-0.41-0.33-0.74-0.74-0.74s-0.74,0.33-0.74,0.74V64.45z M42.87,34.39c0.81,0,1.48-0.67,1.48-1.48V32.6 c0-0.82-0.67-1.49-1.48-1.49c-0.82,0-1.48,0.67-1.48,1.49v0.31C41.39,33.72,42.05,34.39,42.87,34.39z M42.13,68.48 c0,0.41,0.33,0.74,0.74,0.74s0.74-0.33,0.74-0.74v-0.15c0-0.41-0.33-0.74-0.74-0.74s-0.74,0.33-0.74,0.74V68.48z M42.87,20.2 c0.81,0,1.48-0.66,1.48-1.48v-0.31c0-0.82-0.67-1.48-1.48-1.48c-0.82,0-1.48,0.66-1.48,1.48v0.31C41.39,19.54,42.05,20.2,42.87,20.2 z M42.87,12.14c0.81,0,1.48-0.67,1.48-1.49v-0.31c0-0.82-0.67-1.48-1.48-1.48c-0.82,0-1.48,0.66-1.48,1.48v0.31 C41.39,11.47,42.05,12.14,42.87,12.14z M42.87,26.2c0.81,0,1.48-0.67,1.48-1.48v-0.18c0-0.82-0.67-1.39-1.48-1.39 c-0.82,0-1.48,0.75-1.48,1.57C41.39,25.53,42.05,26.2,42.87,26.2z M42.87,70.71c-1.62,0-2.93,1.31-2.93,2.92 c0,1.62,1.31,2.93,2.93,2.93c1.61,0,2.92-1.31,2.92-2.93C45.79,72.02,44.48,70.71,42.87,70.71z"
+};
+
+const BLOB_CLIP_D =
+  "M251.34,119.08c5.03,13.02,1.66,27.93-8.78,37.18c-18.87,16.73-52.95,22.2-52.95,22.2" +
+  "c-4.75,30.71-18.16,46.69-27.2,54.22c-5.26,4.38-11.89,6.79-18.73,6.79" +
+  "c-39.55-0.05-55.24-49.57-55.24-49.57c-27.36,4.25-45.09,0.11-56.23-5.54" +
+  "c-14.95-7.58-22.74-24.38-18.84-40.68c5.75-24.04,28.06-45.8,28.06-45.8" +
+  "c-8.5-21.24-8.19-44.64-7.28-56.49c0.78-10.2,6.85-19.49,16.29-23.4" +
+  "c25.22-10.46,66.87,9.87,66.87,9.87c43.3-36.15,67.74-26.01,67.74-26.01" +
+  "c32.58,10.29,23.15,76.31,23.15,76.31C235.15,88.76,246.55,106.69,251.34,119.08z";
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function applyFonts(fieldData) {
+  let fontFamily = "Roboto";
+  const fn = fieldData.fontName;
+  if (typeof fn === "string") {
+    fontFamily = fn;
+  } else if (typeof fn === "object" && fn && fn.family) {
+    fontFamily = fn.family;
+  }
+
+  const link = document.createElement("link");
+  link.rel  = "stylesheet";
+  link.href = `https://fonts.googleapis.com/css2?family=${fontFamily.replace(/ /g, "+")}:wght@300;400;700;900&display=swap`;
+  document.head.appendChild(link);
+
+  document.querySelectorAll(".title,.text1,.textright,.textbottom").forEach((el) => {
+    el.style.fontFamily = fontFamily;
+  });
+}
+
+function buildParticleMarkup(count = 38) {
+  const shapes = [
+    { key: "starLarge",    weight: 3, sizeMin: 6,  sizeMax: 12, cls: "is-star"  },
+    { key: "starThin",     weight: 3, sizeMin: 5,  sizeMax: 10, cls: "is-star"  },
+    { key: "sparkDiamond", weight: 2, sizeMin: 4,  sizeMax:  7, cls: "is-spark" },
+    { key: "dot",          weight: 9, sizeMin: 2,  sizeMax:  4, cls: "is-dot"   }
+  ];
+
+  const weighted = [];
+  shapes.forEach((s) => { for (let i = 0; i < s.weight; i++) weighted.push(s); });
+
+  let html = `<div class="particle-layer" id="particle-layer">`;
+
+  for (let i = 0; i < count; i++) {
+    const shape  = weighted[Math.floor(Math.random() * weighted.length)];
+    const size   = shape.sizeMin + Math.random() * (shape.sizeMax - shape.sizeMin);
+    const x      = (8  + Math.random() * 84).toFixed(2);
+    const startY = (80 + Math.random() * 16).toFixed(2);
+    const driftX = (Math.random() * 46 - 23).toFixed(2);
+    const travelY  = (65 + Math.random() * 100).toFixed(2);
+    const duration = (6  + Math.random() * 8).toFixed(2);
+    const delay    = (-Math.random() * 14).toFixed(2);
+    const twinkle  = (0.8 + Math.random() * 1.8).toFixed(2);
+    const scale    = (0.7 + Math.random() * 0.9).toFixed(2);
+    const rotate   = Math.floor(Math.random() * 360);
+    const sway     = (8 + Math.random() * 18).toFixed(2);
+
+    const alpha = shape.key === "dot"
+      ? (0.35 + Math.random() * 0.35).toFixed(2)
+      : (0.55 + Math.random() * 0.32).toFixed(2);
+
+    const blinkScaleMin = shape.key === "dot"
+      ? (0.45 + Math.random() * 0.18).toFixed(2)
+      : (0.92 + Math.random() * 0.05).toFixed(2);
+
+    const blinkScaleMax = shape.key === "dot"
+      ? (1.1  + Math.random() * 0.4).toFixed(2)
+      : (1.02 + Math.random() * 0.08).toFixed(2);
+
+    html += `
+      <span class="particle ${shape.cls}" style="
+        --x:${x}%;--startY:${startY}%;--driftX:${driftX}px;
+        --travelY:${travelY}px;--duration:${duration}s;--delay:${delay}s;
+        --size:${size}px;--scale:${scale};--rotate:${rotate}deg;
+        --twinkle:${twinkle}s;--alpha:${alpha};--sway:${sway}px;
+        --blinkScaleMin:${blinkScaleMin};--blinkScaleMax:${blinkScaleMax};">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <path d="${PARTICLE_SHAPES[shape.key]}"></path>
+        </svg>
+      </span>`;
+  }
+
+  html += `</div>`;
+  return html;
+}
+
+function buildHeartBurstMarkup(count = 10) {
+  let html = `<div class="heart-burst" id="heart-burst" aria-hidden="true">`;
+  for (let i = 0; i < count; i++) {
+    html += `
+      <span class="heart heart-${i + 1}">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <path d="${HEART_PATH}"></path>
+        </svg>
+      </span>`;
+  }
+  html += `</div>`;
+  return html;
+}
+
+/* buildWidgetTemplate
+   ─────────────────────────────────────────────────────────────────────────────
+   All color/title values come from fieldData (runtime API data).
+   No {SE_token} literals exist here — they would never be resolved in
+   an external JS file.
+   ───────────────────────────────────────────────────────────────────────────── */
+function buildWidgetTemplate(fieldData) {
+  const topImg = fieldData.top ||
+    "https://cdn.streamelements.com/uploads/1fc8930a-ea61-45cd-b24d-9078e4059a38.png";
+
+  const goalTarget  = fieldData.goalTarget ?? fieldData.goal ?? 100;
+  const backopRaw   = typeof fieldData.backop === "number" ? fieldData.backop : 2;
+  const backOpacity = Math.max(0, Math.min(backopRaw / 10, 0.9));
+
+  const particlesEnabled =
+    String(fieldData.particlesToggle || "on").toLowerCase() !== "off";
+
+  // Read colors from fieldData (set by SE at runtime via onWidgetLoad)
+  const starcol    = fieldData.starcol    || "#fffefe";
+  const starhangcol = fieldData.starhangcol || "#fffefe";
+  const backcolor  = fieldData.backcolor  || "rgb(254,255,254)";
+  const fillcolor1 = fieldData.fillcolor1 || "#fddbad";
+  const fillcolor2 = fieldData.fillcolor2 || "#ffb716";
+  const strokecolor = fieldData.strokecolor || "#FFFFFF";
+  const title      = fieldData.title      || "My Goal";
+
+  return `
+    <div class="container" id="container">
+
+      <img class="front" src="${topImg}">
+
+      <!-- ── Static decorative stars ── -->
+      <svg class="starst" width="60" height="60" viewBox="0 0 266 240" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;" d="${STAR_PATHS.s1}"/>
+      </svg>
+      <svg class="starst_2" width="60" height="60" viewBox="0 0 266 240" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;" d="${STAR_PATHS.s2}"/>
+      </svg>
+      <svg class="starst_3" width="60" height="60" viewBox="0 0 266 240" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;" d="${STAR_PATHS.s3}"/>
+      </svg>
+      <svg class="starst_4" width="60" height="60" viewBox="0 0 266 240" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;" d="${STAR_PATHS.s4}"/>
+      </svg>
+
+      <!-- ── Hanging / swinging stars ── -->
+      <svg class="starsthang_1 swing" width="60" height="60" viewBox="0 0 119.41 107.74" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starhangcol};fill-opacity:1;" d="${HANG_PATHS.h1}"/>
+      </svg>
+      <svg class="starsthang_2 swing" width="60" height="60" viewBox="0 0 172.77 155.88" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starhangcol};fill-opacity:1;" d="${HANG_PATHS.h2}"/>
+      </svg>
+      <svg class="starsthang_3 swing" width="60" height="60" viewBox="0 0 85.73 77.35" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starhangcol};fill-opacity:1;" d="${HANG_PATHS.h3}"/>
+      </svg>
+
+      <!-- ── Liquid fill area ── -->
+      <div class="liquid">
+        <div class="mask">
+
+          <!-- SVG clip-path definition (zero-size, just holds the defs) -->
+          <svg width="0" height="0" viewBox="0 0 200 200" style="position:absolute">
+            <defs>
+              <clipPath id="fillmask">
+                <path transform="translate(-2.1 0) scale(0.80)" d="${BLOB_CLIP_D}"/>
+              </clipPath>
+            </defs>
+          </svg>
+
+          <!-- Back (behind) liquid layer -->
+          <div class="liquid-rect-wrap liquid-rect-wrap-back" id="liquid-rect-wrap-back">
+            <svg id="svg-element-back" class="liquid-rect-svg liquid-rect-svg-back"
+                 viewBox="0 0 224 251" preserveAspectRatio="none">
+              <path id="liquid-path-back" fill="${backcolor}" d="M0 251 L224 251 L224 251 L0 251 Z"/>
+            </svg>
+          </div>
+
+          <!-- Front liquid layer (gradient fill) -->
+          <div class="liquid-rect-wrap" id="liquid-rect-wrap">
+            <svg id="svg-element" class="liquid-rect-svg" viewBox="0 0 224 251" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="front-gradient-2" gradientUnits="userSpaceOnUse"
+                                x1="0" y1="251" x2="0" y2="0" gradientTransform="rotate(0)">
+                  <stop offset="0%"   stop-color="${fillcolor1}"/>
+                  <stop offset="100%" stop-color="${fillcolor2}"/>
+                </linearGradient>
+              </defs>
+              <path id="liquid-path" fill="url(#front-gradient-2)" d="M0 251 L224 251 L224 251 L0 251 Z"/>
+            </svg>
+          </div>
+
+          <!-- Stroke / surface line layer -->
+          <div class="liquid-stroke-wrap" id="liquid-stroke-wrap">
+            <svg id="svg-element-stroke" class="liquid-stroke-svg" viewBox="0 0 224 251" preserveAspectRatio="none">
+              <path id="liquid-path-stroke"
+                    fill="none"
+                    stroke="${strokecolor}"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M0 251 L224 251"/>
+            </svg>
+          </div>
+
+          ${particlesEnabled ? buildParticleMarkup(38) : ""}
+        </div>
+
+        ${buildHeartBurstMarkup(10)}
+      </div>
+
+      <!-- ── Background blob shadow ── -->
+      <div class="back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="266.66666" height="240" viewBox="0 0 266.66666 240">
+          <g>
+            <path transform="translate(-2 40) scale(0.76)"
+                  style="fill:#000000;fill-opacity:${backOpacity};stroke-width:8;stroke-linecap:round"
+                  d="${BLOB_CLIP_D}"/>
+          </g>
+        </svg>
+      </div>
+
+      <!-- ── Text display ── -->
+      <div class="textcontainer">
+        <div class="textright">
+          <div class="title">${title}</div>
+          <p class="text1" id="count-right">0 / ${goalTarget}</p>
+        </div>
+        <div class="textbottom">
+          <div class="title">${title}</div>
+          <p class="text1" id="count-bottom">0 / ${goalTarget}</p>
+        </div>
+      </div>
+
+    </div>
+  `;
+}
+
+// ── Main Widget Class ─────────────────────────────────────────────────────────
+
+class GoalWidget {
+  constructor() {
+    this.fieldData = {};
+
+    this.state = {
+      goalType:       "",
+      goalTarget:     0,
+      currentAmount:  0,
+      startAmount:    0,
+      animatedPercent: 0,
+      targetPercent:  0,
+      timeframe:      "total",
+      countResubs:    false
+    };
+
+    /* Layer defaults — ALL color/speed values are overwritten in
+       applyFieldDataToLayers() once fieldData is available.
+       No {SE_tokens} here — this is an external file.            */
+    this.layers = {
+      front: {
+        wrapId: "liquid-rect-wrap",   svgId: "svg-element",        pathId: "liquid-path",
+        bottom: -70, left: -18, width: 224, height: 281,
+        amplitude: 5, step: 8,
+        speed:   0.07,    // overwritten from fieldData.liquidspeed
+        opacity: 1,
+        filterIdle:   "drop-shadow(0 0 5px rgba(255,241,190,0.45)) drop-shadow(0 0 7px rgba(255,241,190,0.45))",
+        filterActive: "drop-shadow(0 0 7px rgba(255,241,190,0.45)) drop-shadow(0 0 2px rgba(255,241,190,0.45))",
+        reverse: false, percentOffset: 0, phaseOffset: 0
+      },
+      back: {
+        wrapId: "liquid-rect-wrap-back", svgId: "svg-element-back", pathId: "liquid-path-back",
+        bottom: -66, left: -18, width: 224, height: 281,
+        amplitude: 7, step: 8,
+        speed:   0.07,    // overwritten from fieldData.liquidspeed
+        opacity: 1,
+        filterIdle:   "drop-shadow(0 0 4px rgba(255,241,190,0.45)) drop-shadow(0 0 6px rgba(255,241,190,0.45))",
+        filterActive: "drop-shadow(0 0 6px rgba(255,241,190,0.45)) drop-shadow(0 0 10px rgba(255,241,190,0.45))",
+        reverse: true,  percentOffset: -2, phaseOffset: 0
+      },
+      stroke: {
+        wrapId: "liquid-stroke-wrap", svgId: "svg-element-stroke", pathId: "liquid-path-stroke",
+        bottom: -72, left: -18, width: 224, height: 281,
+        amplitude: 5, step: 8,
+        speed:       0.09,        // overwritten from fieldData.strokespeed
+        strokeWidth: 2,
+        strokeColor: "#FFFFFF",   // overwritten from fieldData.strokecolor
+        opacity: 1,
+        filterIdle:   "drop-shadow(0 0 3px rgba(255,241,190,0.45)) drop-shadow(0 0 5px rgba(255,241,190,0.45))",
+        filterActive: "drop-shadow(0 0 5px rgba(255,241,190,0.45)) drop-shadow(0 0 9px rgba(255,241,190,0.45))",
+        reverse: false, percentOffset: 0, phaseOffset: 0
+      }
+    };
+
+    this._warpFrame       = null;
+    this._percentTweenFrame = null;
+    this._waveOffsets     = { front: 0, back: 0, stroke: 0 };
+  }
+
+  /* ─── applyFieldDataToLayers ──────────────────────────────────────────────
+     Replaces what used to be {SE_token} literals inside the JS panel.
+     Called in init() after fieldData is available from onWidgetLoad.
+     ───────────────────────────────────────────────────────────────────────── */
+  applyFieldDataToLayers(fieldData) {
+    const glow        = fieldData.glow        || "rgba(255,241,190,0.45)";
+    const liquidspeed = parseFloat(fieldData.liquidspeed) || 0.07;
+    const strokespeed = parseFloat(fieldData.strokespeed) || 0.09;
+    const strokecolor = fieldData.strokecolor || "#FFFFFF";
+
+    // ── Speed ──────────────────────────────────
+    this.layers.front.speed  = liquidspeed;
+    this.layers.back.speed   = liquidspeed;
+    this.layers.stroke.speed = strokespeed;
+
+    // ── Glow filters (match SE panel exactly) ──
+    this.layers.front.filterIdle   = `drop-shadow(0 0 5px ${glow}) drop-shadow(0 0 7px ${glow})`;
+    this.layers.front.filterActive = `drop-shadow(0 0 7px ${glow}) drop-shadow(0 0 2px ${glow})`;
+
+    this.layers.back.filterIdle    = `drop-shadow(0 0 4px ${glow}) drop-shadow(0 0 6px ${glow})`;
+    this.layers.back.filterActive  = `drop-shadow(0 0 6px ${glow}) drop-shadow(0 0 10px ${glow})`;
+
+    this.layers.stroke.strokeColor  = strokecolor;
+    this.layers.stroke.filterIdle   = `drop-shadow(0 0 3px ${glow}) drop-shadow(0 0 5px ${glow})`;
+    this.layers.stroke.filterActive = `drop-shadow(0 0 5px ${glow}) drop-shadow(0 0 9px ${glow})`;
+  }
+
+  // ── Utility ─────────────────────────────────────────────────────────────
+
+  getNumber(value, fallback = 0) {
+    const n = Number(value);
+    return Number.isFinite(n) ? n : fallback;
+  }
+
+  easeOutCubic(t) {
+    return 1 - Math.pow(1 - t, 3);
+  }
+
+  getBucketKey(base, timeframe) {
+    const tf = String(timeframe || "total").toLowerCase();
+    if (tf === "month")   return `${base}-month`;
+    if (tf === "week")    return `${base}-week`;
+    if (tf === "session") return `${base}-session`;
+    if (tf === "manual")  return null;
+    return `${base}-total`;
+  }
+
+  computeSubscriberIncrement(event, countResubs) {
+    if (countResubs) {
+      if (event && event.bulkGifted) return this.getNumber(event.amount, 1);
+      return 1;
+    }
+    const subType = String(event?.sub_type || event?.type || "").toLowerCase();
+    const isResub = event?.isResub === true || event?.is_resub === true || subType.includes("resub");
+    if (isResub) return 0;
+    if (event && event.bulkGifted) return this.getNumber(event.amount, 1);
+    return 1;
+  }
+
+  // ── DOM Build ────────────────────────────────────────────────────────────
+
+  buildDOM(fieldData) {
+    const root = document.getElementById("widget-root") || document.body;
+    root.innerHTML = buildWidgetTemplate(fieldData);
+  }
+
+  // ── Layer Styling ────────────────────────────────────────────────────────
+
+  applyLayerStyles(layer) {
+    const wrap = document.getElementById(layer.wrapId);
+    const svg  = document.getElementById(layer.svgId);
+    const path = document.getElementById(layer.pathId);
+
+    if (wrap) {
+      wrap.style.position     = "absolute";
+      wrap.style.left         = `${layer.left}px`;
+      wrap.style.bottom       = `${layer.bottom}px`;
+      wrap.style.width        = `${layer.width}px`;
+      wrap.style.height       = `${layer.height}px`;
+      wrap.style.overflow     = "hidden";
+      wrap.style.pointerEvents = "none";
+
+      if (layer === this.layers.back)   wrap.style.zIndex = "0";
+      if (layer === this.layers.front)  wrap.style.zIndex = "1";
+      if (layer === this.layers.stroke) wrap.style.zIndex = "3";
+    }
+
+    if (svg) {
+      svg.style.position     = "absolute";
+      svg.style.left         = "0";
+      svg.style.bottom       = "0";
+      svg.style.width        = `${layer.width}px`;
+      svg.style.height       = `${layer.height}px`;
+      svg.style.display      = "block";
+      svg.style.overflow     = "visible";
+      svg.style.pointerEvents = "none";
+      svg.style.opacity      = String(layer.opacity);
+      svg.style.willChange   = "transform, filter";
+      svg.style.transition   =
+        "transform 900ms cubic-bezier(0.22, 1, 0.36, 1), filter 400ms ease, opacity 400ms ease";
+      svg.style.filter = layer.filterIdle;
+    }
+
+    if (path && layer === this.layers.stroke) {
+      path.setAttribute("fill",             "none");
+      path.setAttribute("stroke",           layer.strokeColor);
+      path.setAttribute("stroke-width",     String(layer.strokeWidth));
+      path.setAttribute("stroke-linecap",   "round");
+      path.setAttribute("stroke-linejoin",  "round");
+    }
+  }
+
+  applyLiquidRectInlineStyles() {
+    this.applyLayerStyles(this.layers.back);
+    this.applyLayerStyles(this.layers.front);
+    this.applyLayerStyles(this.layers.stroke);
+  }
+
+  // ── Wave / Liquid Animation ──────────────────────────────────────────────
+
+  buildLiquidPath(layer, surfaceY, offset) {
+    const { width, height, amplitude, step, reverse } = layer;
+    const sign = reverse ? -1 : 1;
+    let d = `M 0 ${surfaceY}`;
+
+    for (let x = 0; x <= width; x += step) {
+      let phase;
+      if (layer === this.layers.stroke) {
+        phase = reverse ? x / 35 - offset + layer.phaseOffset
+                        : x / 35 + offset + layer.phaseOffset;
+      } else {
+        phase = reverse ? x / 23 - offset + layer.phaseOffset
+                        : x / 18 + offset + layer.phaseOffset;
+      }
+      const y = surfaceY + sign * amplitude * Math.sin(phase);
+      d += ` L ${x} ${y}`;
+    }
+
+    if (layer === this.layers.stroke) return d;
+    d += ` L ${width} ${height} L 0 ${height} Z`;
+    return d;
+  }
+
+  getLayerPercent(layer, basePercent) {
+    return Math.max(0, Math.min(basePercent + layer.percentOffset, 100));
+  }
+
+  initLiquidWarp() {
+    const frontPath  = document.getElementById(this.layers.front.pathId);
+    const backPath   = document.getElementById(this.layers.back.pathId);
+    const strokePath = document.getElementById(this.layers.stroke.pathId);
+    if (!frontPath || !backPath || !strokePath) return;
+
+    if (this._warpFrame) { cancelAnimationFrame(this._warpFrame); this._warpFrame = null; }
+
+    /* ── Delta-time animation ─────────────────────────────────────────────
+       Speed values were tuned at 60fps. By multiplying by (delta × 60) we
+       normalise to a 60fps-equivalent increment every frame regardless of
+       the actual frame rate.
+
+         60fps : delta ≈ 0.01667s  →  dt ≈ 1.00  →  speed × 1   ✅
+         30fps : delta ≈ 0.03333s  →  dt ≈ 2.00  →  speed × 2   ✅
+         Any fps: visual wave speed is always identical.
+
+       delta is capped at 100 ms (0.1 s) so a stall / tab-suspend never
+       causes a massive position jump when the browser resumes.
+       ──────────────────────────────────────────────────────────────────── */
+    let lastTime = performance.now();
+
+    const animate = (now) => {
+      const delta = Math.min((now - lastTime) / 1000, 0.1); // seconds, capped at 100 ms
+      lastTime    = now;
+
+      // Normalise to 60fps-equivalent so OBS (30fps) matches SE editor (60fps)
+      const dt = delta * 60;
+
+      const mask       = document.querySelector(".mask");
+      const maskHeight = mask ? mask.clientHeight : this.layers.front.height;
+
+      this._waveOffsets.front  += this.layers.front.speed  * dt;
+      this._waveOffsets.back   += this.layers.back.speed   * dt;
+      this._waveOffsets.stroke += this.layers.stroke.speed * dt;
+
+      const fPct = this.getLayerPercent(this.layers.front,  this.state.animatedPercent);
+      const bPct = this.getLayerPercent(this.layers.back,   this.state.animatedPercent);
+      const sPct = this.getLayerPercent(this.layers.stroke, this.state.animatedPercent);
+
+      frontPath.setAttribute("d",  this.buildLiquidPath(this.layers.front,  maskHeight * (1 - fPct / 100), this._waveOffsets.front));
+      backPath.setAttribute("d",   this.buildLiquidPath(this.layers.back,   maskHeight * (1 - bPct / 100), this._waveOffsets.back));
+      strokePath.setAttribute("d", this.buildLiquidPath(this.layers.stroke, maskHeight * (1 - sPct / 100), this._waveOffsets.stroke));
+
+      this._warpFrame = requestAnimationFrame(animate);
+    };
+
+    // Pass `now` from rAF into the first tick via performance.now() seed
+    this._warpFrame = requestAnimationFrame(animate);
+  }
+
+  // ── Percent Tween ────────────────────────────────────────────────────────
+
+  startPercentTween(nextPercent) {
+    const start     = this.state.animatedPercent;
+    const end       = Math.max(0, Math.min(nextPercent, 100));
+    const duration  = 900;
+    const startTime = performance.now();
+
+    if (this._percentTweenFrame) { cancelAnimationFrame(this._percentTweenFrame); }
+
+    const tick = (now) => {
+      const t     = Math.min((now - startTime) / duration, 1);
+      const eased = this.easeOutCubic(t);
+      this.state.animatedPercent = start + (end - start) * eased;
+      if (t < 1) {
+        this._percentTweenFrame = requestAnimationFrame(tick);
+      } else {
+        this.state.animatedPercent  = end;
+        this._percentTweenFrame = null;
+      }
+    };
+
+    this._percentTweenFrame = requestAnimationFrame(tick);
+  }
+
+  // ── Particle / Burst ─────────────────────────────────────────────────────
+
+  updateParticleProgress(percentage) {
+    const layer = document.querySelector(CONFIG.selectors.particleLayer);
+    if (!layer) return;
+
+    const enabled = String(this.fieldData?.particlesToggle || "on").toLowerCase() !== "off";
+
+    if (!enabled) {
+      document.documentElement.style.setProperty("--particle-progress", "0");
+      layer.classList.remove("is-active");
+      return;
+    }
+
+    const clamped = Math.max(0, Math.min(percentage / 100, 1));
+    document.documentElement.style.setProperty("--particle-progress", String(clamped));
+    layer.classList.toggle("is-active", percentage > 0);
+  }
+
+  updateCompletionBurst(percentage) {
+    const burst   = document.querySelector(CONFIG.selectors.heartBurst);
+    if (!burst)   return;
+
+    const enabled = String(this.fieldData?.heartend || "on").toLowerCase() !== "off";
+    if (!enabled) { burst.classList.remove("is-full"); return; }
+
+    burst.classList.toggle("is-full", percentage >= 100);
+  }
+
+  // ── Layer Visuals ────────────────────────────────────────────────────────
+
+  updateLayerVisuals(layer, active) {
+    const svg = document.getElementById(layer.svgId);
+    if (!svg) return;
+    svg.style.filter = active ? layer.filterActive : layer.filterIdle;
+  }
+
+  // ── UI Update ────────────────────────────────────────────────────────────
+
+  updateUI() {
+    const currentAmount = this.getNumber(this.state.currentAmount);
+    const goalTarget    = this.getNumber(this.state.goalTarget);
+    const goalType      = this.state.goalType;
+
+    const percentage = goalTarget > 0
+      ? Math.min((currentAmount / goalTarget) * 100, 100)
+      : 0;
+
+    this.state.targetPercent = percentage;
+    this.startPercentTween(percentage);
+
+    this.updateLayerVisuals(this.layers.front,  percentage > 0);
+    this.updateLayerVisuals(this.layers.back,   percentage > 0);
+    this.updateLayerVisuals(this.layers.stroke, percentage > 0);
+    this.updateParticleProgress(percentage);
+    this.updateCompletionBurst(percentage);
+
+    let displayAmount, displayTarget;
+    if (goalType === "tip") {
+      displayAmount = CONFIG.currency + Math.floor(currentAmount);
+      displayTarget = CONFIG.currency + Math.floor(goalTarget);
+    } else {
+      displayAmount = Math.floor(currentAmount);
+      displayTarget = Math.floor(goalTarget);
+    }
+
+    const textStr    = `${displayAmount} / ${displayTarget}`;
+    const textRight  = document.querySelector(CONFIG.selectors.textRight);
+    const textBottom = document.querySelector(CONFIG.selectors.textBottom);
+    if (textRight)  textRight.innerText  = textStr;
+    if (textBottom) textBottom.innerText = textStr;
+  }
+
+  // ── Text Position & Layout ───────────────────────────────────────────────
+
+  setupTextPosition(position) {
+    const right  = document.querySelector(CONFIG.selectors.containerRight);
+    const bottom = document.querySelector(CONFIG.selectors.containerBottom);
+    if (!right || !bottom) return;
+
+    document.body.classList.remove("pos-right", "pos-bottom");
+
+    if (position === "right") {
+      right.style.visibility  = "visible";
+      bottom.style.visibility = "hidden";
+      document.body.classList.add("pos-right");
+    } else {
+      right.style.visibility  = "hidden";
+      bottom.style.visibility = "visible";
+      document.body.classList.add("pos-bottom");
+    }
+  }
+
+  // ── Goal Amount Init ─────────────────────────────────────────────────────
+
+  initializeAmount(data) {
+    const type      = this.state.goalType;
+    const timeframe = this.state.timeframe || "total";
+
+    const getTotal = (key, field) => {
+      const obj = data[key];
+      return obj ? this.getNumber(obj[field]) : 0;
+    };
+
+    if (String(timeframe).toLowerCase() === "manual") {
+      this.state.currentAmount = this.getNumber(this.state.startAmount, 0);
+      return;
+    }
+
+    let initialValue = 0;
+
+    if (type === "follower") {
+      initialValue = 0;
+    } else {
+      const mapBase = { subscriber: "subscriber", tip: "tip", cheer: "cheer", raid: "raid" };
+      const base    = mapBase[type];
+      if (base) {
+        const bucketKey = this.getBucketKey(base, timeframe);
+        if (bucketKey) {
+          const field  = (type === "tip" || type === "cheer") ? "amount" : "count";
+          initialValue = getTotal(bucketKey, field);
+        }
+      }
+    }
+
+    this.state.currentAmount =
+      this.getNumber(initialValue) + this.getNumber(this.state.startAmount, 0);
+  }
+
+  // ── Event Handling ───────────────────────────────────────────────────────
+
+  increment(value) {
+    this.state.currentAmount =
+      this.getNumber(this.state.currentAmount) + this.getNumber(value, 0);
+  }
+
+  handleEvent(listener, event) {
+    if (!event) return;
+    const num = (v) => this.getNumber(v);
+
+    const handlers = {
+      "follower-latest":    () => this.increment(1),
+      "subscriber-latest":  () => this.increment(this.computeSubscriberIncrement(event, this.state.countResubs)),
+      "tip-latest":         () => this.increment(num(event.amount)),
+      "cheer-latest":       () => this.increment(num(event.amount)),
+      "raid-latest":        () => this.increment(num(event.viewers ?? event.amount))
+    };
+
+    if (listener.startsWith(this.state.goalType) && handlers[listener]) {
+      handlers[listener]();
+      this.updateUI();
+    }
+  }
+
+  // ── Init ─────────────────────────────────────────────────────────────────
+
+  init(detail) {
+    const { fieldData: fields, session } = detail;
+    const data = session?.data || {};
+
+    this.fieldData = fields || {};
+
+    // 1. Build the DOM (uses fieldData for colors/title — no SE tokens)
+    this.buildDOM(this.fieldData);
+
+    // 2. Apply fieldData-driven values to layers
+    //    (replaces {liquidspeed}, {strokespeed}, {glow}, {strokecolor} tokens)
+    this.applyFieldDataToLayers(this.fieldData);
+
+    // 3. Set CONFIG currency
+    CONFIG.currency = String(this.fieldData.cur ?? "").trim() || "$";
+
+    // 4. Load Google Font
+    applyFonts(this.fieldData);
+
+    // 5. State
+    const validTypes = ["follower", "subscriber", "tip", "cheer", "raid"];
+    let goalType = this.fieldData.goalType || "tip";
+    if (!validTypes.includes(goalType)) goalType = "tip";
+
+    this.state.goalType    = goalType;
+    this.state.goalTarget  = this.getNumber(this.fieldData.goalTarget ?? this.fieldData.goal ?? 0);
+    this.state.startAmount = this.getNumber(this.fieldData.startAmount || 0);
+    this.state.timeframe   = this.fieldData.timeframe || "total";
+    this.state.countResubs = !!this.fieldData.resubs;
+
+    // 6. Back wave opacity toggle
+    const backWaveToggle = String(this.fieldData.backWaveOpacity || "on").toLowerCase();
+    this.layers.back.opacity = backWaveToggle === "off" ? 0 : 1;
+
+    // 7. Text position
+    this.setupTextPosition(this.fieldData.textPosition || this.fieldData.textpos || "bottom");
+
+    // 8. Text layout class
+    const layout = (this.fieldData.textLayout || "one").toLowerCase();
+    document.body.classList.remove("layout-one", "layout-two");
+    document.body.classList.add(layout === "two" ? "layout-two" : "layout-one");
+
+    // 9. Text background toggle
+    const textBgToggle = (this.fieldData.textBgToggle || "on").toLowerCase();
+    document.body.classList.remove("textbg-on", "textbg-off");
+    document.body.classList.add(textBgToggle === "off" ? "textbg-off" : "textbg-on");
+
+    // 10. Calculate initial amount
+    this.initializeAmount(data);
+
+    // 11. Set animated percentage
+    const initialPct = this.state.goalTarget > 0
+      ? Math.min((this.state.currentAmount / this.state.goalTarget) * 100, 100)
+      : 0;
+
+    this.state.animatedPercent = initialPct;
+    this.state.targetPercent   = initialPct;
+
+    // 12. Apply layer styles then start liquid warp loop
+    this.applyLiquidRectInlineStyles();
+    this.initLiquidWarp();
+    this.updateUI();
+  }
+}
+
+// ── Bootstrap ─────────────────────────────────────────────────────────────────
+
+const widget = new GoalWidget();
+
+window.addEventListener("onWidgetLoad",    (obj) => widget.init(obj.detail));
+window.addEventListener("onEventReceived", (obj) => widget.handleEvent(obj.detail.listener, obj.detail.event));
