@@ -1,19 +1,3 @@
-/* =======================================================================
-   GOAL WIDGET — goalwidget.js
-   Host this file on GitHub and serve via jsDelivr CDN.
-   StreamElements Goal Widget | OBS-Optimized External Build
-
-   HOW IT WORKS:
-   - StreamElements resolves {tokens} in HTML/CSS panels only.
-   - This external file reads from window.WCONF (set by the inline
-     bridge script in the SE HTML panel) for any value that was
-     previously a {token} inside the JS panel.
-   - All other runtime data (fieldData, session) comes from the
-     onWidgetLoad event as normal.
-   ======================================================================= */
-
-// ── Constants ────────────────────────────────────────────────────────────────
-
 const CONFIG = {
   currency: "$",
   selectors: {
@@ -33,16 +17,16 @@ const PARTICLE_SHAPES = {
   // force a full 360° sweep without the path collapsing to nothing.
 
   starLarge:
-    "M 50,5 a 45,45 0 1,0 0.001,0 Z",      // XL bubble   r=45
+    "M 50,5 a 45,45 0 1,0 0.001,0 Z",      // XL bubble   r=10
 
   starThin:
-    "M 50,15 a 35,35 0 1,0 0.001,0 Z",     // Large bubble r=35
+    "M 50,15 a 35,35 0 1,0 0.001,0 Z",     // Large bubble r=8
 
   sparkDiamond:
-    "M 50,25 a 25,25 0 1,0 0.001,0 Z",     // Medium bubble r=25
+    "M 50,25 a 25,25 0 1,0 0.001,0 Z",     // Medium bubble r=4
 
   dot:
-    "M 50,35 a 15,15 0 1,0 0.001,0 Z"      // Small bubble  r=15
+    "M 50,35 a 15,15 0 1,0 0.001,0 Z"      // Small bubble  r=2
 };
 
 const HEART_PATH =
