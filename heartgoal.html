@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Goal Widget — Standalone</title>
+  <style>
+/* ═══════════════════════════════════════════════════════════════
+   STREAMLABS / MULTISTREAM LIQUID GOAL WIDGET — CSS
+   Version: 2.0 — Converted from StreamElements
+   Supports: Twitch, YouTube, Kick, TikTok
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --tail-w: 20px;
+  --tail-h: 6px;
+  --tail-x: 1px;
+  --tail-y: 80%;
+
+  /* ── Dynamic vars (set by JS from fieldData) ─── */
+  --scale-size: 1.2;
+  --font-name: 'Comfortaa', sans-serif;
+  --font-color: #fefefe;
+  --title-font-color: #fefefe;
+  --font-size: 20px;
+  --title-font-size: 20px;
+  --font-weight: 1000;
+  --title-font-weight: 1000;
+  --text-x: 90px;
+  --text-xy: -190px;
+  --text-y: -64px;
+  --text-yx: 16px;
+  --gap: 4px;
+  --fill-color-1: #FF4E62;
+  --fill-color-2: #FD9FAD;
+  --back-color: #fedde2;
+  --glow-color: rgba(253, 159, 173, 0.24);
+  --star-col: #fefefe;
+  --star-hang-col: #fffefe;
+  --bubble-col: #FF4E62;
+  --radial-1: rgba(255, 9, 95, 0.24);
+  --radial-2: rgba(254, 114, 156, 0);
+  --fill-color-5: transparent;
+}
+
+body {
+  transform: scale(var(--scale-size));
+  transform-origin: left center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+* {
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  width: 200px;
+  height: 180px;
+  top: 234px;
+  left: 99px;
+  zoom: 132%;
+}
+
+.mask {
+  position: absolute;
+  width: 200px;
+  height: 195px;
+  bottom: -58px;
+  left: -3px;
+  clip-path: url(#liquidmask);
+  margin-left: 3px;
+  overflow: visible;
+}
+
+.liquid {
+  filter: saturate(1.1) brightness(1.1) contrast(1.1)
+          drop-shadow(0 0 0px var(--fill-color-1))
+          drop-shadow(0 0 18px var(--fill-color-2));
+  zoom: 108%;
+  bottom: 54px;
+  left: 11px;
+  position: absolute;
+  width: 140%;
+  height: 100%;
+}
+
+.front {
+  position: absolute;
+  zoom: 116.6%;
+  width: 200px;
+  height: 200px;
+  bottom: -11.9px;
+  left: 6.9px;
+  z-index: 3;
+}
+
+/* ─── Decorative stars ─────────────────────────────────────────── */
+.shadow1 {
+  zoom: 34%;
+  position: absolute;
+  bottom: 61px;
+  z-index: 2;
+  right: -45px;
+  height: 100%;
+  filter: blur(39px);
+}
+
+.starst {
+  filter: drop-shadow(0 0 3px var(--star-col)) drop-shadow(0 0 20px var(--star-col));
+  zoom: 138%;
+  left: -10px;
+  position: absolute;
+  bottom: 94px;
+  transform: rotate(268deg);
+  z-index: 3;
+}
+.starst_2 {
+  filter: drop-shadow(0 0 3px var(--star-col)) drop-shadow(0 0 20px var(--star-col));
+  zoom: 81%;
+  left: -14px;
+  position: absolute;
+  bottom: 135px;
+  transform: rotate(87deg);
+  z-index: 3;
+}
+.starst_3 {
+  filter: drop-shadow(0 0 3px var(--star-col)) drop-shadow(0 0 20px var(--star-col));
+  zoom: 102%;
+  left: 157px;
+  position: absolute;
+  bottom: 3px;
+  transform: rotate(22deg);
+  z-index: 3;
+}
+.starst_4 {
+  filter: drop-shadow(0 0 3px var(--star-col)) drop-shadow(0 0 20px var(--star-col));
+  zoom: 160%;
+  left: 98px;
+  position: absolute;
+  bottom: -13px;
+  z-index: 3;
+}
+
+/* ─── Hanging decorative stars ─────────────────────────────────── */
+.starsthang_1 {
+  filter: drop-shadow(0 0 3px var(--star-hang-col)) drop-shadow(0 0 5px var(--star-hang-col));
+  zoom: 75%;
+  left: 45px;
+  position: absolute;
+  bottom: 1px;
+  z-index: 3;
+}
+.starsthang_2 {
+  filter: drop-shadow(0 0 3px var(--star-hang-col)) drop-shadow(0 0 5px var(--star-hang-col));
+  zoom: 95%;
+  left: 45px;
+  position: absolute;
+  bottom: -13px;
+  z-index: 3;
+}
+.starsthang_3 {
+  filter: drop-shadow(0 0 3px var(--star-hang-col)) drop-shadow(0 0 5px var(--star-hang-col));
+  zoom: 102%;
+  left: 116px;
+  position: absolute;
+  bottom: 3px;
+  transform: rotate(22deg);
+  z-index: 3;
+}
+
+.swing {
+  transform-origin: 50% 0;
+  animation: swing 3s ease-in-out infinite alternate;
+}
+@keyframes swing {
+  0%   { transform: rotate(-15deg); }
+  50%  { transform: rotate(15deg); }
+  100% { transform: rotate(-15deg); }
+}
+
+/* ─── Liquid wrapper layers ────────────────────────────────────── */
+.liquid-rect-wrap {
+  position: absolute;
+  left: -18px;
+  bottom: -30px;
+  width: 224px;
+  height: 251px;
+  overflow: visible;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.liquid-rect-svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 224px;
+  height: 251px;
+  overflow: visible;
+  display: block;
+  filter: drop-shadow(0 0 5px var(--glow-color)) drop-shadow(0 0 7px var(--glow-color));
+  will-change: transform;
+  transition:
+    transform 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 400ms ease,
+    opacity 400ms ease;
+}
+
+.liquid-rect-wrap-back { z-index: 0; }
+.liquid-rect-svg-back  { opacity: 0.72; }
+
+/* ─── Background shadow shape ──────────────────────────────────── */
+.back {
+  zoom: 113%;
+  position: absolute;
+  width: 200px;
+  height: 209px;
+  bottom: 2px;
+  z-index: -30;
+  left: 11px;
+  opacity: 0.6;
+}
+.back svg {
+  bottom: -20px;
+  position: absolute;
+}
+
+/* ─── Text container ───────────────────────────────────────────── */
+.textcontainer {
+  zoom: 150%;
+  position: absolute;
+  width: 200px;
+  height: 180px;
+  top: 179px;
+  left: 64px;
+}
+
+.textright {
+  font-family: var(--font-name);
+  color: var(--font-color);
+  position: absolute;
+  left: var(--text-x);
+  top: var(--text-xy);
+  z-index: 5;
+  width: 300%;
+  text-align: left;
+  transform: scale(0.50);
+  transform-origin: top left;
+  font-size: var(--font-size);
+  visibility: hidden;
+}
+
+.textbottom {
+  font-family: var(--font-name);
+  color: var(--font-color);
+  position: absolute;
+  left: var(--text-yx);
+  top: var(--text-y);
+  z-index: 5;
+  width: max-content;
+  transform: scale(0.50);
+  transform-origin: top left;
+  font-size: var(--font-size);
+  visibility: hidden;
+}
+
+.title {
+  position: relative;
+  z-index: 6;
+  font-size: var(--title-font-size);
+  font-family: var(--font-name);
+  color: var(--title-font-color);
+  margin-bottom: -0.1em;
+  font-weight: var(--title-font-weight);
+  filter: drop-shadow(0 0 4px var(--title-font-color)) drop-shadow(0 0 8px var(--title-font-color));
+}
+
+.text1 {
+  margin: 0;
+  font-weight: var(--font-weight);
+  filter: drop-shadow(0 0 4px var(--font-color)) drop-shadow(0 0 8px var(--font-color));
+}
+
+body.textglow-off .title,
+body.textglow-off .text1 {
+  filter: none !important;
+}
+
+/* ─── Text pill layout ─────────────────────────────────────────── */
+.textright .title,
+.textbottom .title,
+.textright .text1,
+.textbottom .text1 {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2;
+}
+
+.title { margin-bottom: 0 !important; }
+
+.textright,
+.textbottom {
+  padding: 10px 20px;
+  border-radius: 60px;
+}
+
+body.pos-right  .textright  { background: var(--pill-gradient-right)  !important; }
+body.pos-bottom .textbottom { background: var(--pill-gradient-bottom) !important; }
+
+.textright,
+.textbottom {
+  position: absolute !important;
+  white-space: normal;
+}
+
+.textright  { transform: scale(0.50) !important; transform-origin: center     !important; }
+.textbottom { transform: scale(0.50) !important; transform-origin: top left   !important; }
+
+/* Layout: One Line */
+body.layout-one .textright {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: var(--gap);
+  white-space: nowrap;
+  padding: 8px 10px;
+  width: max-content;
+  transform: scale(0.5) !important;
+  transform-origin: top left !important;
+}
+
+body.layout-one .textbottom {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: var(--gap);
+  white-space: nowrap;
+  padding: 8px 12px;
+  width: max-content;
+  transform: translateX(-50%) scale(0.5) !important;
+  transform-origin: center !important;
+}
+
+body.layout-one .textright .title,
+body.layout-one .textright .text1,
+body.layout-one .textbottom .title,
+body.layout-one .textbottom .text1 {
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Layout: Two Line */
+body.layout-two .textright {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  gap: var(--gap) !important;
+  padding: 5px 20px !important;
+  min-width: 150px;
+  width: fit-content;
+  transform: scale(0.55) !important;
+  transform-origin: top left !important;
+}
+
+body.layout-two .textbottom {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  gap: var(--gap) !important;
+  padding: 5px 20px !important;
+  min-width: 150px;
+  transform: translateX(-50%) scale(0.55) !important;
+  transform-origin: center !important;
+}
+
+body.layout-two .textright .title,
+body.layout-two .textright .text1,
+body.layout-two .textbottom .title,
+body.layout-two .textbottom .text1 {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* Pill tails */
+body.pos-right .textright::after {
+  content: "";
+  position: absolute;
+  left: calc(-1 * var(--tail-x));
+  top: var(--tail-y);
+  transform: translateY(-50%) rotate(7deg);
+  width: var(--tail-w);
+  height: calc(var(--tail-h) * 2);
+  background: var(--fill-color-5) !important;
+  clip-path: polygon(19.658% 1.483%,2.343% 82.093%,2.343% 82.093%,1.796% 86.027%,1.446% 89.395%,1.319% 92.231%,1.44% 94.568%,1.836% 96.44%,2.532% 97.881%,3.553% 98.924%,4.927% 99.602%,6.678% 99.95%,8.832% 100%,8.832% 100%,10.044% 99.924%,11.249% 99.794%,12.444% 99.611%,13.628% 99.379%,14.799% 99.099%,15.954% 98.776%,17.093% 98.41%,18.212% 98.005%,19.311% 97.562%,20.386% 97.086%,100% 60.132%);
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+body.pos-bottom .textbottom::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -9px;
+  transform: translateX(-50%) rotate(0deg);
+  width: var(--tail-w);
+  height: calc(var(--tail-h) * 2);
+  background: var(--fill-color-5) !important;
+  clip-path: polygon(100% 84.48%,62.963% 7.368%,62.963% 7.368%,61.438% 4.88%,59.58% 2.952%,57.474% 1.583%,55.204% 0.773%,52.854% 0.52%,50.508% 0.824%,48.251% 1.684%,46.167% 3.098%,44.34% 5.067%,42.854% 7.589%,0.314% 100%);
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+body.textbg-off .textright,
+body.textbg-off .textbottom {
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+body.textbg-off .textright::after,
+body.textbg-off .textbottom::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* ─── Heart burst (completion effect) ──────────────────────────── */
+.heart-burst {
+  position: absolute;
+  zoom: 80%;
+  left: 95px;
+  top: -211px;
+  width: 40%;
+  height: 100%;
+  z-index: 6;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.heart {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  display: none;
+  top: 78%;
+  z-index: 6;
+  will-change: transform, opacity;
+}
+
+.heart svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+.heart path {
+  fill: var(--bubble-col);
+  filter:
+    drop-shadow(0 0 1px var(--bubble-col))
+    drop-shadow(0 0 6px var(--bubble-col));
+}
+
+.heart-burst.is-full .heart { display: block; }
+
+.heart-burst.is-full .heart-1  { left:  5%; transform: scale(0.9);  opacity: 0.6;  animation: moveclouds 2.75s linear infinite, sideWays 4s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-2  { left: 17%; transform: scale(0.6);  opacity: 0.9;  animation: moveclouds 2s linear infinite, sideWaysRight 7s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-3  { left: 29%; transform: scale(0.6);  opacity: 0.8;  animation: moveclouds 3s linear infinite, sideWays 3s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-4  { left: 45%; transform: scale(0.75); opacity: 0.8;  animation: moveclouds 3.5s linear infinite, sideWays 4s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-5  { left: 55%; transform: scale(0.5);  opacity: 0.4;  animation: moveclouds 2.2s linear infinite, sideWays 5s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-6  { left: 65%; transform: scale(1);    opacity: 1;    animation: moveclouds 3.1s linear infinite, sideWaysRight 4s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-7  { left: 75%; transform: scale(0.8);  opacity: 0.7;  animation: moveclouds 2.4s linear infinite, sideWays 6s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-8  { left: 85%; transform: scale(0.65); opacity: 0.85; animation: moveclouds 3.8s linear infinite, sideWaysRight 5s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-9  { left: 10%; transform: scale(0.95); opacity: 0.9;  animation: moveclouds 4.5s linear infinite, sideWays 7s ease-in-out infinite alternate; }
+.heart-burst.is-full .heart-10 { left: 50%; transform: scale(0.55); opacity: 0.8;  animation: moveclouds 2.8s linear infinite, sideWaysRight 4s ease-in-out infinite alternate; }
+
+@keyframes moveclouds {
+  0%   { top: 90%; opacity: 0; }
+  10%  { opacity: 1; }
+  98%  { opacity: 1; transform: scale(1); }
+  100% { top: 20px; transform: scale(2); opacity: 0; }
+}
+
+@keyframes sideWays {
+  0%   { margin-left: 0px; }
+  100% { margin-left: 25px; }
+}
+
+@keyframes sideWaysRight {
+  0%   { margin-left: 0px; }
+  100% { margin-left: -25px; }
+}
+
+/* ─── Kawaii Bubble System ─────────────────────────────────────── */
+.bubble {
+  position: absolute;
+  pointer-events: none;
+  animation: bubbleRise linear forwards;
+}
+
+.bubble-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50px;
+  pointer-events: none;
+  z-index: 5;
+  overflow: visible;
+}
+
+.bubble-inner {
+  width: 100%;
+  height: 100%;
+  animation:
+    bubbleSide 2s ease-in-out infinite,
+    bubbleScale 2s ease-in-out infinite;
+}
+
+.bubble svg path {
+  fill: var(--bubble-col);
+}
+
+@keyframes bubbleRise {
+  0%   { transform: translateY(0); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { transform: translateY(-120px); opacity: 0; }
+}
+
+@keyframes bubbleSide {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(10px); }
+  100% { transform: translateX(-10px); }
+}
+
+@keyframes bubbleScale {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.bubble svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 6px var(--bubble-col));
+}
+  </style>
+</head>
+<body>
+  <div id="widget-root"></div>
+  <script>
+/* ═══════════════════════════════════════════════════════════════
+   STREAMLABS / MULTISTREAM LIQUID GOAL WIDGET — JavaScript
+   Version: 2.0 — Converted from StreamElements
+   Supports: Twitch, YouTube, Kick, TikTok
+   ═══════════════════════════════════════════════════════════════
+
+   STREAMLABS EVENT MAPPING (from StreamElements):
+   ────────────────────────────────────────────────
+   SE: follower-latest     → SL: follow-latest
+   SE: subscriber-latest   → SL: subscription-latest
+   SE: tip-latest          → SL: donation-latest
+   SE: cheer-latest        → SL: bits-latest
+   SE: raid-latest         → SL: raid-latest
+
+   MULTISTREAM EXTRAS (YouTube / Kick / TikTok):
+   ────────────────────────────────────────────────
+   YouTube superchat  → superchat-latest   (maps to cheer)
+   YouTube member     → member-latest      (maps to subscriber)
+   Facebook stars     → stars-latest       (maps to cheer)
+   TikTok gift        → tiktok-gift        (maps to tip/cheer)
+
+   SESSION DATA MAPPING:
+   ────────────────────────────────────────────────
+   SE: tip-total           → SL: donation-total
+   SE: tip-session         → SL: donation-session
+   SE: tip-month           → SL: donation-month
+   SE: tip-week            → SL: donation-week
+   SE: cheer-total         → SL: bits-total (Twitch) / superchat-total (YT)
+   SE: subscriber-*        → SL: subscription-*
+   SE: follower-*          → SL: follow-*
+   ═══════════════════════════════════════════════════════════════ */
+
+const CONFIG = {
+  currency: "$",
+  selectors: {
+    textRight:       "#count-right",
+    textBottom:      "#count-bottom",
+    containerRight:  ".textright",
+    containerBottom: ".textbottom",
+    bubbleLayer:     "#bubble-layer",
+    heartBurst:      "#heart-burst"
+  }
+};
+
+/* ═══════════════════════════════════════════════════════════════
+   PLATFORM EVENT NORMALIZER
+   Maps Streamlabs event listeners to unified goal types
+   ═══════════════════════════════════════════════════════════════ */
+const PLATFORM_MAP = {
+  /* Streamlabs listener → { goalType, valueField } */
+  "follow-latest":         { goalType: "follower",   valueField: null,      increment: 1 },
+  "subscription-latest":   { goalType: "subscriber", valueField: null,      increment: 1 },
+  "donation-latest":       { goalType: "tip",        valueField: "amount",  increment: null },
+  "bits-latest":           { goalType: "cheer",      valueField: "amount",  increment: null },
+  "raid-latest":           { goalType: "raid",       valueField: "viewers", increment: null },
+  /* YouTube extras */
+  "superchat-latest":      { goalType: "cheer",      valueField: "amount",  increment: null },
+  "member-latest":         { goalType: "subscriber", valueField: null,      increment: 1 },
+  /* Facebook */
+  "stars-latest":          { goalType: "cheer",      valueField: "amount",  increment: null },
+  /* Kick mapped through donation or custom */
+  "kick-subscription":     { goalType: "subscriber", valueField: null,      increment: 1 },
+  "kick-gift":             { goalType: "tip",        valueField: "amount",  increment: null },
+  /* TikTok */
+  "tiktok-gift":           { goalType: "tip",        valueField: "amount",  increment: null },
+  "tiktok-follow":         { goalType: "follower",   valueField: null,      increment: 1 },
+  "tiktok-subscription":   { goalType: "subscriber", valueField: null,      increment: 1 }
+};
+
+/* Session bucket key mapping (SE key → SL key) */
+const SESSION_KEY_MAP = {
+  "tip-total":         "donation-total",
+  "tip-month":         "donation-month",
+  "tip-week":          "donation-week",
+  "tip-session":       "donation-session",
+  "cheer-total":       "bits-total",
+  "cheer-month":       "bits-month",
+  "cheer-week":        "bits-week",
+  "cheer-session":     "bits-session",
+  "subscriber-total":  "subscription-total",
+  "subscriber-month":  "subscription-month",
+  "subscriber-week":   "subscription-week",
+  "subscriber-session":"subscription-session",
+  "follower-total":    "follow-total",
+  "follower-month":    "follow-month",
+  "follower-week":     "follow-week",
+  "follower-session":  "follow-session",
+  "raid-total":        "raid-total",
+  "raid-month":        "raid-month",
+  "raid-week":         "raid-week",
+  "raid-session":      "raid-session"
+};
+
+
+/* ═══════════════════════════════════════════════════════════════
+   BUBBLE PATH & FACTORY
+   ═══════════════════════════════════════════════════════════════ */
+const BUBBLE_PATH =
+  "M73.18,50c0,12.8-10.38,23.18-23.18,23.18S26.82,62.8,26.82,50S37.2,26.82,50,26.82S73.18,37.2,73.18,50z";
+
+function createBubble(currentPercent = 50, color = "#ff80ab") {
+  const wrapper = document.createElement("span");
+  const inner   = document.createElement("span");
+
+  const x        = 20 + Math.random() * 30;
+  const size     = 8 + Math.random() * 10;
+  const duration = 2 + Math.random() * 2;
+
+  wrapper.className = "bubble";
+  inner.className   = "bubble-inner";
+
+  wrapper.style.left              = x + "%";
+  wrapper.style.bottom            = currentPercent + "%";
+  wrapper.style.width             = size + "px";
+  wrapper.style.height            = size + "px";
+  wrapper.style.animationDuration = duration + "s";
+
+  const rotate = Math.random() * 360;
+
+  inner.innerHTML = `
+    <svg viewBox="0 0 100 100" width="100%" height="100%" style="transform: rotate(${rotate}deg); filter: drop-shadow(0 0 1px ${color}) drop-shadow(0 0 6px ${color});">
+      <path d="${BUBBLE_PATH}" fill="${color}"/>
+    </svg>
+  `;
+
+  wrapper.appendChild(inner);
+  const layer = document.getElementById("bubble-layer");
+  if (layer) layer.appendChild(wrapper);
+
+  setTimeout(() => wrapper.remove(), duration * 1000);
+}
+
+function buildHeartBurstMarkup(count = 10) {
+  let html = `<div class="heart-burst" id="heart-burst" aria-hidden="true">`;
+  for (let i = 0; i < count; i++) {
+    html += `
+      <span class="heart heart-${i + 1}">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <path d="${BUBBLE_PATH}"></path>
+        </svg>
+      </span>
+    `;
+  }
+  html += `</div>`;
+  return html;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════
+   GOOGLE FONT LOADER
+   ═══════════════════════════════════════════════════════════════ */
+function applyFonts(fieldData) {
+  let fontFamily = "Roboto";
+
+  const fn = fieldData.fontName;
+  if (typeof fn === "string")                    fontFamily = fn;
+  else if (typeof fn === "object" && fn?.family) fontFamily = fn.family;
+
+  const link  = document.createElement("link");
+  link.rel    = "stylesheet";
+  link.href   = `https://fonts.googleapis.com/css2?family=${fontFamily.replace(/ /g, "+")}:wght@300;400;700;900&display=swap`;
+  document.head.appendChild(link);
+
+  document.querySelectorAll(".title, .text1, .textright, .textbottom").forEach((el) => {
+    el.style.fontFamily = fontFamily;
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CSS CUSTOM PROPERTY SYNC
+   Replaces StreamElements {{var}} / {var} template injection
+   ═══════════════════════════════════════════════════════════════ */
+function syncCSSVariables(f) {
+  const root = document.documentElement;
+
+  root.style.setProperty("--scale-size",        f.scalesize ?? 1.2);
+  root.style.setProperty("--font-color",        f.fontColor ?? "#fefefe");
+  root.style.setProperty("--title-font-color",  f.titleFontColor ?? "#fefefe");
+  root.style.setProperty("--font-size",         (f.fontSize ?? 20) + "px");
+  root.style.setProperty("--title-font-size",   (f.titleFontSize ?? 20) + "px");
+  root.style.setProperty("--font-weight",       f.fontWeight ?? "1000");
+  root.style.setProperty("--title-font-weight", f.titleFontWeight ?? "1000");
+  root.style.setProperty("--text-x",            (f.textx ?? 90) + "px");
+  root.style.setProperty("--text-xy",           (f.textxy ?? -190) + "px");
+  root.style.setProperty("--text-y",            (f.texty ?? -64) + "px");
+  root.style.setProperty("--text-yx",           (f.textyx ?? 16) + "px");
+  root.style.setProperty("--gap",               (f.gap ?? 4) + "px");
+  root.style.setProperty("--fill-color-1",      f.fillcolor1 ?? "#FF4E62");
+  root.style.setProperty("--fill-color-2",      f.fillcolor2 ?? "#FD9FAD");
+  root.style.setProperty("--back-color",        f.backcolor ?? "#fedde2");
+  root.style.setProperty("--glow-color",        f.glow ?? "rgba(253,159,173,0.24)");
+  root.style.setProperty("--star-col",          f.starcol ?? "#fefefe");
+  root.style.setProperty("--star-hang-col",     f.starhangcol ?? "#fffefe");
+  root.style.setProperty("--bubble-col",        f.bubblecol ?? "#FF4E62");
+  root.style.setProperty("--radial-1",          f.radial1 ?? "rgba(255,9,95,0.24)");
+  root.style.setProperty("--radial-2",          f.radial2 ?? "rgba(254,114,156,0)");
+
+  const fontFamily = typeof f.fontName === "string" ? f.fontName
+                   : f.fontName?.family ?? "Comfortaa";
+  root.style.setProperty("--font-name", `'${fontFamily}', sans-serif`);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════
+   MAIN WIDGET HTML TEMPLATE
+   ═══════════════════════════════════════════════════════════════ */
+function buildWidgetTemplate(fieldData) {
+  const topImg =
+    fieldData.top ||
+    "https://cdn.streamelements.com/uploads/1fc8930a-ea61-45cd-b24d-9078e4059a38.png";
+  const goalTarget = fieldData.goalTarget ?? fieldData.goal ?? 100;
+
+  const backopRaw   = typeof fieldData.backop === "number" ? fieldData.backop : 2;
+  const backOpacity = Math.max(0, Math.min(backopRaw / 10, 0.9));
+
+  const starcol     = fieldData.starcol     ?? "#fefefe";
+  const radial1     = fieldData.radial1     ?? "rgba(255,9,95,0.24)";
+  const radial2     = fieldData.radial2     ?? "rgba(254,114,156,0)";
+  const fillcolor1  = fieldData.fillcolor1  ?? "#FF4E62";
+  const fillcolor2  = fieldData.fillcolor2  ?? "#FD9FAD";
+  const backcolor   = fieldData.backcolor   ?? "#fedde2";
+  const titleText   = fieldData.title       ?? "My Goal";
+
+  return `
+    <div class="container" id="container">
+      <img class="front" src="${topImg}">
+
+      <svg class="shadow1"
+       viewBox="0 0 266 240" xml:space="preserve">
+        <style type="text/css">.st0{fill:url(#SVGID_1_);}</style>
+        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="50.1756" y1="17.3949" x2="230.4182" y2="192.0411">
+          <stop offset="0" style="stop-color:${radial1}"/>
+          <stop offset="1" style="stop-color:${radial2}"/>
+        </linearGradient>
+        <path class="st0" d="M139.92,31.35c8.37,0.37,16.64-2.08,23.38-7.06c15.2-11.24,41.97-24.24,67.31-2.12c0,0,69.2,55.72,3.82,140.2
+          c0,0-62.2,77.17-112.87,68.72c-2.92-0.49-5.75-1.41-8.46-2.6c-15.22-6.65-74.74-35.58-100.96-91.25C-1.12,109.1,1.05,76,17.13,49.35
+          c18.7-31,53.99-60.39,102.99-24.82C125.89,28.71,132.8,31.04,139.92,31.35L139.92,31.35z"/>
+      </svg>
+
+      <svg class="starst" width="60" height="60" viewBox="0 0 266 240"
+           xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;"
+          d="M101.17,136.82h-2.34c0-19.69-15.96-35.65-35.65-35.65v-2.34c19.69,0,35.65-15.96,35.65-35.65h2.34
+      c0,19.69,15.96,35.65,35.65,35.65v2.34C117.13,101.17,101.17,117.13,101.17,136.82z"/>
+      </svg>
+
+      <svg class="starst_2" width="60" height="60" viewBox="0 0 266 240"
+           xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;"
+          d="M101.17,136.82h-2.34c0-19.69-15.96-35.65-35.65-35.65v-2.34c19.69,0,35.65-15.96,35.65-35.65h2.34
+      c0,19.69,15.96,35.65,35.65,35.65v2.34C117.13,101.17,101.17,117.13,101.17,136.82z"/>
+      </svg>
+
+      <svg class="starst_3" width="60" height="60" viewBox="0 0 266 240"
+           xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+        <path style="fill:${starcol};fill-opacity:1;"
+          d="M101.17,136.82h-2.34c0-19.69-15.96-35.65-35.65-35.65v-2.34c19.69,0,35.65-15.96,35.65-35.65h2.34
+      c0,19.69,15.96,35.65,35.65,35.65v2.34C117.13,101.17,101.17,117.13,101.17,136.82z"/>
+      </svg>
+
+      <!-- ─── Bubble layer wrapper ─── -->
+      <div id="bubble-wrapper" style="
+        zoom: 108%;
+        bottom: 23px;
+        left: 11px;
+        position: absolute;
+        width: 140%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        overflow: visible;
+      ">
+        <div id="bubble-layer" class="bubble-layer" style="
+          position: absolute;
+          width: 200px;
+          height: 195px;
+          bottom: -58px;
+          left: -3px;
+          margin-left: 3px;
+          clip-path: url(#liquidmask);
+          overflow: visible;
+          pointer-events: none;
+        "></div>
+      </div>
+
+      <!-- ─── Liquid wave layer ─── -->
+      <div class="liquid">
+        <div class="mask">
+          <svg width="0" height="0" viewBox="0 0 200 200" style="position:absolute">
+            <defs>
+              <clipPath id="liquidmask">
+                <path transform="translate(-2.1 0.000000) scale(0.80)"
+                  d="M131.62,33.78c-8.53-7.81-60.37-50.93-108.41,5.78c-4.09,4.83-7.46,10.23-9.91,16.07C4.36,76.94-8.32,129.76,52.19,183.46c0,0,29.83,28.52,61.29,42.06c0.83,0.36,1.65,0.72,2.46,1.11c4.15,1.96,23.97,9.53,51.43-8.76c2.41-1.61,4.87-3.15,7.38-4.6c15.88-9.15,76.6-48.05,84.91-112.21c1.08-8.34,0.82-16.8-0.87-25.04c-3.71-18.03-15.2-48.73-50.8-62c-9.11-3.4-18.92-4.6-28.56-3.38c-12.6,1.59-30.38,6.93-45.46,23.07C133.35,34.36,132.29,34.39,131.62,33.78z"/>
+              </clipPath>
+            </defs>
+          </svg>
+
+          <!-- Back liquid wave -->
+          <div class="liquid-rect-wrap liquid-rect-wrap-back" id="liquid-rect-wrap-back">
+            <svg id="svg-element-back" class="liquid-rect-svg liquid-rect-svg-back"
+                 viewBox="0 0 224 251" preserveAspectRatio="none">
+              <path id="liquid-path-back" fill="${backcolor}"
+                    d="M0 251 L224 251 L224 251 L0 251 Z"></path>
+            </svg>
+          </div>
+
+          <!-- Front liquid wave -->
+          <div class="liquid-rect-wrap" id="liquid-rect-wrap">
+            <svg id="svg-element" class="liquid-rect-svg"
+                 viewBox="0 0 224 251" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="front-gradient-2" gradientUnits="userSpaceOnUse"
+                                x1="0" y1="251" x2="0" y2="0" gradientTransform="rotate(0)">
+                  <stop offset="30%"   stop-color="${fillcolor1}"></stop>
+                  <stop offset="100%" stop-color="${fillcolor2}"></stop>
+                </linearGradient>
+              </defs>
+              <path id="liquid-path" fill="url(#front-gradient-2)"
+                    d="M0 251 L224 251 L224 251 L0 251 Z"></path>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ─── Heart burst (completion effect) ─── -->
+      <div id="heart-burst-wrapper" style="
+        zoom: 108%;
+        bottom: 0px;
+        left: -20px;
+        position: absolute;
+        width: 140%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 4;
+        overflow: visible;
+      ">
+        ${buildHeartBurstMarkup(10)}
+      </div>
+
+      <!-- Background shadow -->
+      <div class="back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="266.66666" height="240"
+             viewBox="0 0 266.66666 240">
+          <g>
+            <path transform="translate(-2 40.000000) scale(0.76)"
+              style="fill:#000000;fill-opacity:${backOpacity};stroke-width:8;stroke-linecap:round"
+              d="M131.62,33.78c-8.53-7.81-60.37-50.93-108.41,5.78c-4.09,4.83-7.46,10.23-9.91,16.07C4.36,76.94-8.32,129.76,52.19,183.46c0,0,29.83,28.52,61.29,42.06c0.83,0.36,1.65,0.72,2.46,1.11c4.15,1.96,23.97,9.53,51.43-8.76c2.41-1.61,4.87-3.15,7.38-4.6c15.88-9.15,76.6-48.05,84.91-112.21c1.08-8.34,0.82-16.8-0.87-25.04c-3.71-18.03-15.2-48.73-50.8-62c-9.11-3.4-18.92-4.6-28.56-3.38c-12.6,1.59-30.38,6.93-45.46,23.07C133.35,34.36,132.29,34.39,131.62,33.78z">
+            </path>
+          </g>
+        </svg>
+      </div>
+
+      <!-- Goal text -->
+      <div class="textcontainer">
+        <div class="textright">
+          <div class="title">${titleText}</div>
+          <p class="text1" id="count-right">0 / ${goalTarget}</p>
+        </div>
+        <div class="textbottom">
+          <div class="title">${titleText}</div>
+          <p class="text1" id="count-bottom">0 / ${goalTarget}</p>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+  `;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════
+   GOAL WIDGET CLASS
+   ═══════════════════════════════════════════════════════════════ */
+class GoalWidget {
+  constructor() {
+    this.fieldData = {};
+
+    this.state = {
+      goalType:        "",
+      goalTarget:      0,
+      currentAmount:   0,
+      startAmount:     0,
+      animatedPercent: 0,
+      targetPercent:   0,
+      timeframe:       "total",
+      countResubs:     false
+    };
+
+    this.layers = {
+      front: {
+        wrapId:        "liquid-rect-wrap",
+        svgId:         "svg-element",
+        pathId:        "liquid-path",
+        bottom: -48,
+        left: -60,
+        width: 300,
+        height: 235,
+        amplitude:     6,
+        step:          8,
+        speed:         0.07,
+        opacity:       1,
+        filterIdle:    "",
+        filterActive:  "",
+        reverse:       false,
+        percentOffset: 0,
+        phaseOffset:   0,
+        waveDivisor:   16
+      },
+      back: {
+        wrapId:        "liquid-rect-wrap-back",
+        svgId:         "svg-element-back",
+        pathId:        "liquid-path-back",
+        bottom: -43,
+        left: -60,
+        width: 300,
+        height: 235,
+        amplitude:     7,
+        step:          8,
+        speed:         0.07,
+        opacity:       1,
+        filterIdle:    "",
+        filterActive:  "",
+        reverse:       true,
+        percentOffset: -2,
+        phaseOffset:   0,
+        waveDivisor:   16
+      }
+    };
+
+    this._warpFrame         = null;
+    this._percentTweenFrame = null;
+    this._waveOffsets       = { front: 0, back: 0 };
+    this._bubbleTimer       = null;
+    this._bubblesStopped    = false;
+    this._isComplete        = false;
+  }
+
+  /* ── Apply dynamic layer filter strings ──────────────────── */
+  applyLayerFilters(f) {
+    const glow       = f.glow ?? "rgba(253,159,173,0.24)";
+    const liqSpeed   = Number(f.liquidspeed) || 0.07;
+
+    this.layers.front.speed        = liqSpeed;
+    this.layers.front.filterIdle   = `drop-shadow(0 0 5px ${glow}) drop-shadow(0 0 7px ${glow})`;
+    this.layers.front.filterActive = `drop-shadow(0 0 7px ${glow}) drop-shadow(0 0 2px ${glow})`;
+
+    this.layers.back.speed         = liqSpeed;
+    this.layers.back.filterIdle    = `drop-shadow(0 0 4px ${glow}) drop-shadow(0 0 6px ${glow})`;
+    this.layers.back.filterActive  = `drop-shadow(0 0 6px ${glow}) drop-shadow(0 0 10px ${glow})`;
+  }
+
+  startBubbles() {
+    const color = this.fieldData.bubblecol || "#ff80ab";
+    this._bubbleTimer = setInterval(() => {
+      const percent = this.state.animatedPercent || 0;
+      if (percent > 0 && !this._isComplete) {
+        createBubble(percent, color);
+      }
+    }, 500);
+  }
+
+  /* ── Utilities ───────────────────────────────────────────── */
+  getBucketKey(base, timeframe) {
+    const tf = String(timeframe || "total").toLowerCase();
+    if (tf === "month")   return `${base}-month`;
+    if (tf === "week")    return `${base}-week`;
+    if (tf === "session") return `${base}-session`;
+    if (tf === "manual")  return null;
+    return `${base}-total`;
+  }
+
+  /**
+   * Convert a SE-style bucket key to the Streamlabs equivalent.
+   * e.g. "tip-total" → "donation-total"
+   */
+  toStreamlabsKey(seKey) {
+    return SESSION_KEY_MAP[seKey] || seKey;
+  }
+
+  computeSubscriberIncrement(event, countResubs) {
+    if (countResubs) {
+      if (event && event.bulkGifted) return this.getNumber(event.amount, 1);
+      if (event && event.gifted_amount) return this.getNumber(event.gifted_amount, 1);
+      return 1;
+    }
+    const subType = String(event?.sub_type || event?.type || "").toLowerCase();
+    const isResub =
+      event?.isResub === true ||
+      event?.is_resub === true ||
+      subType.includes("resub");
+    if (isResub) return 0;
+    if (event && event.bulkGifted) return this.getNumber(event.amount, 1);
+    if (event && event.gifted_amount) return this.getNumber(event.gifted_amount, 1);
+    return 1;
+  }
+
+  getNumber(value, fallback = 0) {
+    const n = Number(value);
+    return Number.isFinite(n) ? n : fallback;
+  }
+
+  easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+  /* ── DOM build ───────────────────────────────────────────── */
+  buildDOM(fieldData) {
+    const root = document.getElementById("widget-root") || document.body;
+    root.innerHTML = buildWidgetTemplate(fieldData);
+  }
+
+  /* ── Layer style application ─────────────────────────────── */
+  applyLayerStyles(layer) {
+    const wrap = document.getElementById(layer.wrapId);
+    const svg  = document.getElementById(layer.svgId);
+
+    if (wrap) {
+      wrap.style.position      = "absolute";
+      wrap.style.left          = `${layer.left}px`;
+      wrap.style.bottom        = `${layer.bottom}px`;
+      wrap.style.width         = `${layer.width}px`;
+      wrap.style.height        = `${layer.height}px`;
+      wrap.style.overflow      = "hidden";
+      wrap.style.pointerEvents = "none";
+
+      if (layer === this.layers.back)  wrap.style.zIndex = "0";
+      if (layer === this.layers.front) wrap.style.zIndex = "1";
+    }
+
+    if (svg) {
+      svg.style.position      = "absolute";
+      svg.style.left          = "0";
+      svg.style.bottom        = "0";
+      svg.style.width         = `${layer.width}px`;
+      svg.style.height        = `${layer.height}px`;
+      svg.style.display       = "block";
+      svg.style.overflow      = "visible";
+      svg.style.pointerEvents = "none";
+      svg.style.opacity       = String(layer.opacity);
+      svg.style.willChange    = "transform, filter";
+      svg.style.transition    =
+        "transform 900ms cubic-bezier(0.22, 1, 0.36, 1), filter 400ms ease, opacity 400ms ease";
+      svg.style.filter        = layer.filterIdle;
+    }
+  }
+
+  applyLiquidRectInlineStyles() {
+    this.applyLayerStyles(this.layers.back);
+    this.applyLayerStyles(this.layers.front);
+
+    const liquidEl      = document.querySelector(".liquid");
+    const bubbleWrapper = document.getElementById("bubble-wrapper");
+    const heartWrapper  = document.getElementById("heart-burst-wrapper");
+    if (liquidEl && bubbleWrapper) {
+      bubbleWrapper.style.bottom = liquidEl.style.bottom || "23px";
+      bubbleWrapper.style.left   = liquidEl.style.left   || "11px";
+    }
+    if (liquidEl && heartWrapper) {
+      heartWrapper.style.bottom = liquidEl.style.bottom || "0px";
+      heartWrapper.style.left   = liquidEl.style.left   || "-20px";
+    }
+  }
+
+  /* ── Wave path builder ───────────────────────────────────── */
+  buildLiquidPath(layer, surfaceY, offset) {
+    const width     = layer.width;
+    const height    = layer.height;
+    const amplitude = layer.amplitude;
+    const step      = layer.step;
+    const divisor   = layer.waveDivisor || 16;
+    const sign      = layer.reverse ? -1 : 1;
+
+    let d = `M 0 ${surfaceY}`;
+    for (let x = 0; x <= width; x += step) {
+      const phase = layer.reverse
+        ? x / divisor - offset + layer.phaseOffset
+        : x / divisor + offset + layer.phaseOffset;
+      const y = surfaceY + sign * amplitude * Math.sin(phase);
+      d += ` L ${x} ${y}`;
+    }
+    d += ` L ${width} ${height} L 0 ${height} Z`;
+    return d;
+  }
+
+  getLayerPercent(layer, basePercent) {
+    return Math.max(0, Math.min(basePercent + layer.percentOffset, 100));
+  }
+
+  /* ── Percent tween ───────────────────────────────────────── */
+  startPercentTween(nextPercent) {
+    const start     = this.state.animatedPercent;
+    const end       = Math.max(0, Math.min(nextPercent, 100));
+    const duration  = 900;
+    const startTime = performance.now();
+
+    if (this._percentTweenFrame) cancelAnimationFrame(this._percentTweenFrame);
+
+    const tick = (now) => {
+      const elapsed = now - startTime;
+      const t       = Math.min(elapsed / duration, 1);
+      const eased   = this.easeOutCubic(t);
+
+      this.state.animatedPercent = start + (end - start) * eased;
+
+      if (t < 1) {
+        this._percentTweenFrame = requestAnimationFrame(tick);
+      } else {
+        this.state.animatedPercent  = end;
+        this._percentTweenFrame     = null;
+      }
+    };
+
+    this._percentTweenFrame = requestAnimationFrame(tick);
+  }
+
+  /* ── Liquid animation loop ───────────────────────────────── */
+  initLiquidWarp() {
+    const textGlowToggle = (this.fieldData.textGlowToggle || "on").toLowerCase();
+    document.body.classList.remove("textglow-on", "textglow-off");
+    document.body.classList.add(textGlowToggle === "off" ? "textglow-off" : "textglow-on");
+
+    const frontPath = document.getElementById(this.layers.front.pathId);
+    const backPath  = document.getElementById(this.layers.back.pathId);
+    if (!frontPath || !backPath) return;
+
+    if (this._warpFrame) {
+      cancelAnimationFrame(this._warpFrame);
+      this._warpFrame = null;
+    }
+
+    const animate = () => {
+      const mask       = document.querySelector(".mask");
+      const maskHeight = mask ? mask.clientHeight : this.layers.front.height;
+
+      this._waveOffsets.front += this.layers.front.speed;
+      this._waveOffsets.back  += this.layers.back.speed;
+
+      const frontPercent = this.getLayerPercent(this.layers.front, this.state.animatedPercent);
+      const backPercent  = this.getLayerPercent(this.layers.back,  this.state.animatedPercent);
+
+      const frontSurfaceY = maskHeight * (1 - frontPercent / 100);
+      const backSurfaceY  = maskHeight * (1 - backPercent  / 100);
+
+      frontPath.setAttribute("d",
+        this.buildLiquidPath(this.layers.front, frontSurfaceY, this._waveOffsets.front));
+      backPath.setAttribute("d",
+        this.buildLiquidPath(this.layers.back,  backSurfaceY,  this._waveOffsets.back));
+
+      this._warpFrame = requestAnimationFrame(animate);
+    };
+
+    animate();
+  }
+
+  updateCompletionBurst(percentage) {
+    const burst = document.querySelector(CONFIG.selectors.heartBurst);
+    if (!burst) return;
+
+    const isEnabled =
+      String(this.fieldData?.heartend || "on").toLowerCase() !== "off";
+
+    if (!isEnabled) {
+      burst.classList.remove("is-full");
+      return;
+    }
+
+    if (percentage >= 100) burst.classList.add("is-full");
+    else                   burst.classList.remove("is-full");
+  }
+
+  updateLayerVisuals(layer, active) {
+    const svg = document.getElementById(layer.svgId);
+    if (!svg) return;
+    svg.style.filter = active ? layer.filterActive : layer.filterIdle;
+  }
+
+  /* ── UI update ───────────────────────────────────────────── */
+  updateUI() {
+    const currentAmount = this.getNumber(this.state.currentAmount);
+    const goalTarget    = this.getNumber(this.state.goalTarget);
+    const goalType      = this.state.goalType;
+
+    let percentage = 0;
+    if (goalTarget > 0) percentage = Math.min((currentAmount / goalTarget) * 100, 100);
+
+    this._isComplete = percentage >= 100;
+    this.state.targetPercent = percentage;
+    this.startPercentTween(percentage);
+
+    this.updateLayerVisuals(this.layers.front, percentage > 0);
+    this.updateLayerVisuals(this.layers.back,  percentage > 0);
+    this.updateCompletionBurst(percentage);
+
+    let displayAmount, displayTarget;
+
+    if (goalType === "tip" || goalType === "cheer") {
+      displayAmount = CONFIG.currency + Math.floor(currentAmount);
+      displayTarget = CONFIG.currency + Math.floor(goalTarget);
+    } else {
+      displayAmount = Math.floor(currentAmount);
+      displayTarget = Math.floor(goalTarget);
+    }
+
+    const textString = `${displayAmount} / ${displayTarget}`;
+    const textRight  = document.querySelector(CONFIG.selectors.textRight);
+    const textBottom = document.querySelector(CONFIG.selectors.textBottom);
+    if (textRight)  textRight.innerText  = textString;
+    if (textBottom) textBottom.innerText = textString;
+  }
+
+  setupTextPosition(position) {
+    const right  = document.querySelector(CONFIG.selectors.containerRight);
+    const bottom = document.querySelector(CONFIG.selectors.containerBottom);
+    if (!right || !bottom) return;
+
+    document.body.classList.remove("pos-right", "pos-bottom");
+
+    if (position === "right") {
+      right.style.visibility  = "visible";
+      bottom.style.visibility = "hidden";
+      document.body.classList.add("pos-right");
+    } else {
+      right.style.visibility  = "hidden";
+      bottom.style.visibility = "visible";
+      document.body.classList.add("pos-bottom");
+    }
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     STREAMLABS SESSION DATA READER
+     Reads initial amounts from Streamlabs session object
+     ═══════════════════════════════════════════════════════════ */
+  initializeAmount(data) {
+    const type      = this.state.goalType;
+    const timeframe = this.state.timeframe || "total";
+
+    const getTotal = (key, field) => {
+      /* Try Streamlabs key first, then SE key as fallback */
+      const slKey = this.toStreamlabsKey(key);
+      const obj   = data[slKey] || data[key];
+      if (!obj) return 0;
+      return this.getNumber(obj[field]);
+    };
+
+    if (String(timeframe).toLowerCase() === "manual") {
+      this.state.currentAmount = this.getNumber(this.state.startAmount, 0);
+      return;
+    }
+
+    let initialValue = 0;
+
+    if (type === "follower") {
+      initialValue = 0;
+    } else {
+      /* Map goal type to the SE-style base key, then convert to SL */
+      const mapBase = {
+        subscriber: "subscriber",
+        tip:        "tip",
+        cheer:      "cheer",
+        raid:       "raid"
+      };
+      const base = mapBase[type];
+      if (!base) {
+        initialValue = 0;
+      } else {
+        const bucketKey = this.getBucketKey(base, timeframe);
+        if (!bucketKey) {
+          initialValue = 0;
+        } else {
+          const field  = type === "tip" || type === "cheer" ? "amount" : "count";
+          initialValue = getTotal(bucketKey, field);
+        }
+      }
+    }
+
+    this.state.currentAmount =
+      this.getNumber(initialValue) + this.getNumber(this.state.startAmount, 0);
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     STREAMLABS EVENT HANDLER
+     Normalizes SL listener names to unified goal types
+     Supports: Twitch, YouTube, Kick, TikTok
+     ═══════════════════════════════════════════════════════════ */
+  handleEvent(listener, event) {
+    if (!event) return;
+    const num = (v) => this.getNumber(v);
+
+    /* Look up the platform mapping for this listener */
+    const mapping = PLATFORM_MAP[listener];
+    if (!mapping) return;
+
+    /* Only process if this mapping matches our configured goal type */
+    if (mapping.goalType !== this.state.goalType) return;
+
+    let incrementValue = 0;
+
+    if (mapping.goalType === "subscriber") {
+      /* Subscriber-type events (Twitch sub, YouTube member, Kick sub) */
+      incrementValue = this.computeSubscriberIncrement(event, this.state.countResubs);
+
+    } else if (mapping.goalType === "raid") {
+      /* Raid events */
+      incrementValue = num(event.viewers ?? event.amount ?? event.raiders ?? 1);
+
+    } else if (mapping.increment !== null) {
+      /* Fixed increment events (follows) */
+      incrementValue = mapping.increment;
+
+    } else if (mapping.valueField) {
+      /* Value-based events (tips, bits, superchats) */
+      incrementValue = num(event[mapping.valueField] ?? event.amount ?? 0);
+
+    } else {
+      incrementValue = 1;
+    }
+
+    this.increment(incrementValue);
+    this.updateUI();
+  }
+
+  setupTimeframeReset() {
+    /* Placeholder: month/week auto-reset logic */
+  }
+
+  increment(value) {
+    const current = this.getNumber(this.state.currentAmount);
+    const delta   = this.getNumber(value, 0);
+
+    this.state.currentAmount = current + delta;
+
+    if (this.state.currentAmount >= this.state.goalTarget) {
+      const tf = String(this.state.timeframe).toLowerCase();
+
+      if (tf === "total" || tf === "session") {
+        if (this._isComplete) return;
+
+        this._isComplete = true;
+        this.state.targetPercent = 100;
+        this.updateUI();
+
+        setTimeout(() => {
+          this.state.targetPercent = 0;
+          this.startPercentTween(0);
+
+          setTimeout(() => {
+            const overflow = this.state.currentAmount - this.state.goalTarget;
+            this.state.currentAmount   = overflow;
+            this.state.animatedPercent = 0;
+            this._isComplete           = false;
+            this.updateUI();
+          }, 900);
+        }, 1200);
+      }
+    }
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     INIT — Called by the Streamlabs onWidgetLoad event
+     ═══════════════════════════════════════════════════════════ */
+  init(detail) {
+    const { fieldData: fields, session } = detail;
+
+    const data = session?.data || {};
+
+    this.fieldData = fields || {};
+
+    /* Apply dynamic layer filter strings from field data */
+    this.applyLayerFilters(this.fieldData);
+
+    /* Sync CSS custom properties (replaces SE template vars) */
+    syncCSSVariables(this.fieldData);
+
+    this.buildDOM(this.fieldData);
+    this.startBubbles();
+    CONFIG.currency = String(this.fieldData.cur ?? "").trim() || "$";
+
+    applyFonts(this.fieldData);
+
+    const validTypes = ["follower", "subscriber", "tip", "cheer", "raid"];
+    let goalType = this.fieldData.goalType || "tip";
+    if (!validTypes.includes(goalType)) goalType = "tip";
+
+    this.state.goalType    = goalType;
+    this.state.goalTarget  = this.getNumber(this.fieldData.goalTarget ?? this.fieldData.goal ?? 0);
+    this.state.startAmount = this.getNumber(this.fieldData.startAmount || 0);
+    this.state.timeframe   = this.fieldData.timeframe || "total";
+    this.state.countResubs = this.fieldData.resubs === true || this.fieldData.resubs === "true";
+
+    const backWaveToggle     = String(this.fieldData.backWaveOpacity || "on").toLowerCase();
+    this.layers.back.opacity = backWaveToggle === "off" ? 0 : 1;
+
+    this.setupTextPosition(this.fieldData.textPosition || this.fieldData.textpos || "bottom");
+
+    const layout = (this.fieldData.textLayout || "one").toLowerCase();
+    document.body.classList.remove("layout-one", "layout-two");
+    document.body.classList.add(layout === "two" ? "layout-two" : "layout-one");
+
+    const textBgToggle = (this.fieldData.textBgToggle || "on").toLowerCase();
+    document.body.classList.remove("textbg-on", "textbg-off");
+    document.body.classList.add(textBgToggle === "off" ? "textbg-off" : "textbg-on");
+
+    this.initializeAmount(data);
+
+    const initialPercentage =
+      this.state.goalTarget > 0
+        ? Math.min((this.state.currentAmount / this.state.goalTarget) * 100, 100)
+        : 0;
+
+    this.state.animatedPercent = initialPercentage;
+    this.state.targetPercent   = initialPercentage;
+
+    this.applyLiquidRectInlineStyles();
+    this.initLiquidWarp();
+    this.updateUI();
+
+    this.setupTimeframeReset();
+  }
+}
+
+
+/* ═══════════════════════════════════════════════════════════════
+   STREAMLABS EVENT BRIDGE
+   ─────────────────────────────────────────────────────────────
+   Streamlabs custom widgets fire the SAME global events as
+   StreamElements:
+     • onWidgetLoad    — widget initialization
+     • onEventReceived — live stream events
+     • onSessionUpdate — session data refresh
+
+   The key difference is in the LISTENER NAMES and EVENT SHAPES:
+     SE: subscriber-latest  →  SL: subscription-latest
+     SE: tip-latest         →  SL: donation-latest
+     SE: cheer-latest       →  SL: bits-latest
+     SE: follower-latest    →  SL: follow-latest
+   ═══════════════════════════════════════════════════════════════ */
+const widget = new GoalWidget();
+
+window.addEventListener("onWidgetLoad", (obj) => {
+  widget.init(obj.detail);
+});
+
+window.addEventListener("onEventReceived", (obj) => {
+  const listener = obj.detail?.listener;
+  const event    = obj.detail?.event;
+
+  if (!listener || !event) return;
+
+  widget.handleEvent(listener, event);
+});
+
+/* Optional: handle session updates for live data refresh */
+window.addEventListener("onSessionUpdate", (obj) => {
+  const data = obj.detail?.session?.data;
+  if (!data || !widget.fieldData) return;
+
+  /* Re-read session totals and refresh UI */
+  widget.initializeAmount(data);
+  widget.updateUI();
+});
+
+/* ═══════════════════════════════════════════════════════════════
+   STANDALONE AUTO-INIT
+   When loaded outside Streamlabs (e.g. OBS Browser Source),
+   this fires onWidgetLoad with default field data.
+   The Streamlabs event bridge above will still work if events
+   are dispatched by Streamlabs.
+   ═══════════════════════════════════════════════════════════════ */
+(function standaloneInit() {
+  /* If Streamlabs fires onWidgetLoad, this timeout gets
+     overridden by the real event. Otherwise, we self-init. */
+  let loaded = false;
+  window.addEventListener("onWidgetLoad", () => { loaded = true; });
+
+  setTimeout(() => {
+    if (loaded) return;
+
+    const defaultFields = {
+      cur: "$",
+      title: "Kitten' Tip Goal",
+      textPosition: "bottom",
+      textx: 90,
+      textxy: -190,
+      texty: -64,
+      textyx: 16,
+      fontName: "Comfortaa",
+      titleFontSize: 20,
+      fontSize: 20,
+      fontColor: "#fefefe",
+      titleFontColor: "#fefefe",
+      textGlowToggle: "on",
+      titleFontWeight: "1000",
+      fontWeight: "1000",
+      textLayout: "two",
+      gap: 4,
+      textBgToggle: "off",
+      radial1: "rgba(255, 9, 95, 0.24)",
+      radial2: "rgba(254, 114, 156, 0)",
+      fillcolor1: "#FF4E62",
+      fillcolor2: "#FD9FAD",
+      bubblecol: "#FF4E62",
+      backcolor: "#fedde2",
+      glow: "rgba(253, 159, 173, 0.24)",
+      backWaveOpacity: "on",
+      heartend: "on",
+      particlesToggle: "on",
+      top: "https://cdn.streamelements.com/uploads/01kp0pj782dd7gzndc8ar9bwd4.webp",
+      backop: 1,
+      liquidspeed: 0.05,
+      goalType: "tip",
+      goalTarget: 100,
+      startAmount: 10,
+      timeframe: "total",
+      resubs: false,
+      scalesize: 1.2,
+      starcol: "#fefefe",
+      starhangcol: "#fffefe",
+      platform: "auto"
+    };
+
+    const event = new CustomEvent("onWidgetLoad", {
+      detail: {
+        fieldData: defaultFields,
+        session: { data: {} }
+      }
+    });
+
+    window.dispatchEvent(event);
+  }, 500);
+})();
+  </script>
+</body>
+</html>
